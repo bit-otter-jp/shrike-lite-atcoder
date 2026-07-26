@@ -1,0 +1,4 @@
+chip_tile_x=0, chip_tile_y=0, chip_x=16, chip_y=14
+chip_tile_x=0, chip_tile_y=0, chip_x=28, chip_y=2
+chip_tile_x=0, chip_tile_y=0, chip_x=28, chip_y=4
+chip_tile_x=0, chip_tile_y=0, chip_x=28, chip_y=28
