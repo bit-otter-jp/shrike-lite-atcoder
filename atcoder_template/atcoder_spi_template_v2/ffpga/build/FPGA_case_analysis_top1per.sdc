@@ -1,0 +1,287 @@
+# Dumping SDC for net 29, criticality 1.000000
+# net 29: (19 3)->(19 2) 0 1 0 0 #timing (190 190) ps
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_2_1/inst_BC6/OUT
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_2_1/inst_BC6/OUTb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_2_1/inst_BC6/OUT
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_2_1/inst_BC6/OUTb
+# net 29: (19 2)->(19 2) 1 0 0 0 #timing (271 271) ps
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/ASELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/BSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_U1_L1/DSELb
+# net 29: (19 2)->(19 0) 1 1 0 1 #timing (514 470) ps
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/ASEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/CSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/DSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1_int/ESELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/CSELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/DSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_1/inst_D1_B1/ESELb
+# net 29: (19 0)->(18 1) 0 3 0 1 #timing (623 662) ps
+set_case_analysis 0 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/ASEL
+set_case_analysis 1 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/ASELb
+set_case_analysis 0 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/BSEL
+set_case_analysis 1 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/BSELb
+set_case_analysis 1 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/CSEL
+set_case_analysis 0 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/CSELb
+set_case_analysis 0 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/DSEL
+set_case_analysis 1 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/DSELb
+set_case_analysis 0 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/ESEL
+set_case_analysis 1 TILE_00/RBB_0_19/inst_SM_0_0/inst_I4/ESELb
+# Dumping SDC for net 51, criticality 1.000000
+# net 51: (16 2)->(16 2) 0 0 0 0 #timing (163 163) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC5/OUT
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC5/OUTb
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC5/OUT
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC5/OUTb
+# net 51: (16 2)->(18 2) 1 2 0 0 #timing (298 281) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/ASEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/ASELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/BSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/CSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/DSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_U1_B2/DSELb
+# net 51: (18 2)->(18 2) 1 0 0 1 #timing (516 479) ps
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/BSELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/CSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/CSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/DSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1_int/ESELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/CSELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/DSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_L1/ESELb
+# net 51: (18 2)->(18 2) 0 0 0 1 #timing (584 618) ps
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/ASEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_I1/ESELb
+# Dumping SDC for net 51, criticality 1.000000
+# net 51: (16 2)->(16 3) 0 1 0 0 #timing (180 180) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC6/OUT
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC6/OUTb
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC6/OUT
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_1_0/inst_BC6/OUTb
+# net 51: (16 3)->(16 3) 1 0 0 0 #timing (258 261) ps
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/ASELb
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/BSEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U1_L1/DSELb
+# net 51: (16 3)->(16 3) 1 0 0 1 #timing (461 431) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/ASEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/ASELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/BSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/CSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/DSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/DSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/ESEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1_int/ESELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/CSELb
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/DSEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_D1_L1/ESELb
+# net 51: (16 3)->(16 3) 0 0 0 1 #timing (543 569) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/ASEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_I1/ESELb
+# net 51: (16 3)->(12 3) 4 5 0 0 #timing (555 505) ps
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/ASEL
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/ASELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/BSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/BSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/CSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/CSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/DSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/DSELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/ESEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/ESELb
+set_case_analysis 0 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/FSEL
+set_case_analysis 1 TILE_00/RBB_1_16/inst_SM_2_0/inst_U4_B2/FSELb
+# net 51: (12 3)->(14 3) 1 2 0 1 #timing (745 760) ps
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/ASEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/ASELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/BSEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/BSELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/CSEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/CSELb
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/DSEL
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/DSELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/ESEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2_int/ESELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/ASEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/ASELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/BSEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/BSELb
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/CSEL
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/CSELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/DSEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/DSELb
+set_case_analysis 0 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/ESEL
+set_case_analysis 1 TILE_00/RBB_1_12/inst_SM_2_0/inst_D1_B2/ESELb
+# net 51: (14 3)->(15 2) 0 3 0 1 #timing (930 915) ps
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/ASEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/ASELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/BSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/BSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/CSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/CSELb
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/DSEL
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/DSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/ESEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_2_0/inst_I4/ESELb
+# Dumping SDC for net 65, criticality 1.000000
+# net 65: (14 2)->(14 2) 0 0 0 0 #timing (166 166) ps
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_BC5/OUT
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_BC5/OUTb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_BC5/OUT
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_BC5/OUTb
+# net 65: (14 2)->(14 2) 1 0 0 0 #timing (242 244) ps
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/ASEL
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_L1/DSELb
+# net 65: (14 2)->(18 2) 4 5 0 0 #timing (534 496) ps
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/ASEL
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/ASELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/BSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/BSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/CSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/CSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/DSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/DSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/ESEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/ESELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/FSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U4_B2/FSELb
+# net 65: (18 2)->(18 0) 1 1 0 1 #timing (736 734) ps
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/BSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/CSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/CSELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/DSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1_int/ESELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/ASEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/ASELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/BSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/BSELb
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/CSEL
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/CSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/DSEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/DSELb
+set_case_analysis 0 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/ESEL
+set_case_analysis 1 TILE_00/RBB_1_18/inst_SM_1_0/inst_D1_B1/ESELb
+# net 65: (18 0)->(18 1) 0 1 0 1 #timing (864 872) ps
+set_case_analysis 0 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/ASEL
+set_case_analysis 1 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/ASELb
+set_case_analysis 0 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/BSEL
+set_case_analysis 1 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/BSELb
+set_case_analysis 1 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/CSEL
+set_case_analysis 0 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/CSELb
+set_case_analysis 0 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/DSEL
+set_case_analysis 1 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/DSELb
+set_case_analysis 0 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/ESEL
+set_case_analysis 1 TILE_00/RBB_0_18/inst_SM_0_0/inst_I2/ESELb
+# net 65: (14 2)->(12 0) 1 3 0 0 #timing (343 307) ps
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/ASEL
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/ASELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/BSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/BSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/CSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/CSELb
+set_case_analysis 0 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/DSEL
+set_case_analysis 1 TILE_00/RBB_1_14/inst_SM_1_0/inst_U1_B3/DSELb
+# net 65: (12 0)->(12 0) 1 0 0 1 #timing (574 518) ps
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/ASEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/ASELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/BSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/BSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/CSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/CSELb
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/DSEL
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/DSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/ESEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1_int/ESELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/ASEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/ASELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/BSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/BSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/CSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/CSELb
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/DSEL
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/DSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/ESEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_D1_L1/ESELb
+# net 65: (12 0)->(13 1) 0 3 0 1 #timing (629 681) ps
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/ASEL
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/ASELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/BSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/BSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/CSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/CSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/DSEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/DSELb
+set_case_analysis 0 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/ESEL
+set_case_analysis 1 TILE_00/RBB_0_12/inst_SM_0_0/inst_I4/ESELb
