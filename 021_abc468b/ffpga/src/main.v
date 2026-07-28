@@ -38,7 +38,8 @@
     reg [7:0] left;
     reg [7:0] answer_count;
 
-    // position + D + 1などが7bitを超えるため、区間演算は加算前に9bitへ拡張する。
+    // 8bit同士の加算結果を確実に保持し、式評価幅による桁落ちを避けるため、
+    // 区間演算は加算前に9bitへ拡張する。
     wire [8:0] left_plus_d_ext =
         {1'b0, left} + {1'b0, d_reg};
     wire [8:0] position_ext = {1'b0, position};
