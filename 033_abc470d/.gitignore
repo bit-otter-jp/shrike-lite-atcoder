@@ -1,0 +1,14 @@
+build/
+results/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.vvp
+*.in
+*.expected
+current.out
+current.err
+selected_results.csv
+checkpoint_*.json
+*.log
+
