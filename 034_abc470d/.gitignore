@@ -1,0 +1,14 @@
+build/
+results/
+__pycache__/
+*.py[cod]
+*.vvp
+*.exe
+*.hi
+*.o
+current.out
+current.err
+*.in
+*.expected
+manifest.json
+.DS_Store
