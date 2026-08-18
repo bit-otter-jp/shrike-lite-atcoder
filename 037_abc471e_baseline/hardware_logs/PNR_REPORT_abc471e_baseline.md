@@ -1,0 +1,663 @@
+######################################################################
+8/17/26 11:40 AM > Launching Place-and-Route tool
+######################################################################
+-ENABLE_BITSTREAM_OUTPUT_AXI 1
+-ENABLE_BITSTREAM_OUTPUT_AXI_CRC 0
+-ENABLE_HIGH_DENSITY_PACKING 1
+-ENABLE_HIGH_DENSITY_IO_PACKING 0
+-CLK_CONCURRENT_OPT 1
+-PLACE_AND_TRIAL_ROUTE 0
+-PNR_TRIAL_ITER_TOTAL 20
+-MAX_ROUTE_ITER 300
+-MAX_CPU 16
+-TIMING_ANALYSIS_CORNER 0
+Opened I/O file C:/Users/tkomy/AppData/Local/Temp/HSPUjaCI/config/io_spec_in.txt for reading.
+Full I/O locations after placement are in I/O file PNR_IO.log
+Reading file C:/Users/tkomy/AppData/Local/Temp/HSPUjaCI/config/netlist.edif.
+Reading reference library LIB
+    Reading cell GND... Reading complete.
+    Reading cell VCC... Reading complete.
+    Reading cell id00001... Reading complete.
+    Reading cell id00002... Reading complete.
+    Reading cell BUFG... Reading complete.
+    Reading cell DSP48E1... Reading complete.
+    Reading cell FDCE... Reading complete.
+    Reading cell FDCE_1... Reading complete.
+    Reading cell FDCPE... Reading complete.
+    Reading cell FDCPE_1... Reading complete.
+    Reading cell FDPE... Reading complete.
+    Reading cell FDPE_1... Reading complete.
+    Reading cell FDRE... Reading complete.
+    Reading cell FDRE_1... Reading complete.
+    Reading cell FDRSE... Reading complete.
+    Reading cell FDRSE_1... Reading complete.
+    Reading cell FDSE... Reading complete.
+    Reading cell FDSE_1... Reading complete.
+    Reading cell IBUF... Reading complete.
+    Reading cell INV... Reading complete.
+    Reading cell LUT1... Reading complete.
+    Reading cell LUT2... Reading complete.
+    Reading cell LUT3... Reading complete.
+    Reading cell LUT4... Reading complete.
+    Reading cell LUT5... Reading complete.
+    Reading cell LUT6... Reading complete.
+    Reading cell main... Reading complete.
+    Reading cell id00003... Reading complete.
+    Reading cell BUFHCE... Reading complete.
+    Reading cell CARRY4... Reading complete.
+    Reading cell XORCY... Reading complete.
+    Reading cell MUXF9... Reading complete.
+    Reading cell BUFGCTRL... Reading complete.
+    Reading cell OBUFT... Reading complete.
+    Reading cell IOBUF... Reading complete.
+    Reading cell OBUF... Reading complete.
+    Reading cell IBUFG... Reading complete.
+    Reading cell id00004... Reading complete.
+    Reading cell MUXF8... Reading complete.
+    Reading cell MUXF6... Reading complete.
+    Reading cell MUXF7... Reading complete.
+    Reading cell MUXF5... Reading complete.
+    Reading cell MUXCY... Reading complete.
+    Reading cell id00005... Reading complete.
+    Reading cell id00006... Reading complete.
+    Reading cell LUT6_2... Reading complete.
+    Reading cell CARRY8... Reading complete.
+    Reading cell ORCY... Reading complete.
+    Reading cell MULT_AND... Reading complete.
+    Reading cell LDCE... Reading complete.
+    Reading cell LDPE... Reading complete.
+    Reading cell LDCPE... Reading complete.
+    Reading cell AND2B1L... Reading complete.
+    Reading cell OR2L... Reading complete.
+    Reading cell RAM16X1S... Reading complete.
+    Reading cell RAM16X1S_1... Reading complete.
+    Reading cell RAM32X1S... Reading complete.
+    Reading cell RAM32X1S_1... Reading complete.
+    Reading cell RAM64X1S... Reading complete.
+    Reading cell RAM64X1S_1... Reading complete.
+    Reading cell RAM128X1S... Reading complete.
+    Reading cell RAM128X1S_1... Reading complete.
+    Reading cell RAM256X1S... Reading complete.
+    Reading cell RAM512X1S... Reading complete.
+    Reading cell RAM16X2S... Reading complete.
+    Reading cell RAM32X2S... Reading complete.
+    Reading cell RAM64X2S... Reading complete.
+    Reading cell RAM16X4S... Reading complete.
+    Reading cell RAM32X4S... Reading complete.
+    Reading cell RAM16X8S... Reading complete.
+    Reading cell RAM32X8S... Reading complete.
+    Reading cell RAM16X1D... Reading complete.
+    Reading cell RAM16X1D_1... Reading complete.
+    Reading cell RAM32X1D... Reading complete.
+    Reading cell RAM32X1D_1... Reading complete.
+    Reading cell RAM64X1D... Reading complete.
+    Reading cell RAM64X1D_1... Reading complete.
+    Reading cell RAM128X1D... Reading complete.
+    Reading cell RAM256X1D... Reading complete.
+    Reading cell RAM32M... Reading complete.
+    Reading cell RAM32M16... Reading complete.
+    Reading cell RAM64M... Reading complete.
+    Reading cell RAM64M8... Reading complete.
+    Reading cell RAM32X16DR8... Reading complete.
+    Reading cell RAM64X8SW... Reading complete.
+    Reading cell ROM16X1... Reading complete.
+    Reading cell ROM32X1... Reading complete.
+    Reading cell ROM64X1... Reading complete.
+    Reading cell ROM128X1... Reading complete.
+    Reading cell ROM256X1... Reading complete.
+    Reading cell SRL16... Reading complete.
+    Reading cell SRL16E... Reading complete.
+    Reading cell SRLC16... Reading complete.
+    Reading cell SRLC16E... Reading complete.
+    Reading cell SRLC32E... Reading complete.
+    Reading cell CFGLUT5... Reading complete.
+    Reading cell MULT18X18... Reading complete.
+    Reading cell MULT18X18S... Reading complete.
+    Reading cell MULT18X18SIO... Reading complete.
+    Reading cell DSP48A... Reading complete.
+    Reading cell DSP48A1... Reading complete.
+    Reading cell DSP48... Reading complete.
+    Reading cell RAMB18E1... Reading complete.
+    Reading cell RAMB36E1... Reading complete.
+    Reading cell RAMB4_S1... Reading complete.
+    Reading cell RAMB4_S2... Reading complete.
+    Reading cell RAMB4_S4... Reading complete.
+    Reading cell RAMB4_S8... Reading complete.
+    Reading cell RAMB4_S16... Reading complete.
+    Reading cell RAMB4_S1_S1... Reading complete.
+    Reading cell RAMB4_S1_S2... Reading complete.
+    Reading cell RAMB4_S1_S4... Reading complete.
+    Reading cell RAMB4_S1_S8... Reading complete.
+    Reading cell RAMB4_S1_S16... Reading complete.
+    Reading cell RAMB4_S2_S2... Reading complete.
+    Reading cell RAMB4_S2_S4... Reading complete.
+    Reading cell RAMB4_S2_S8... Reading complete.
+    Reading cell RAMB4_S2_S16... Reading complete.
+    Reading cell RAMB4_S4_S4... Reading complete.
+    Reading cell RAMB4_S4_S8... Reading complete.
+    Reading cell RAMB4_S4_S16... Reading complete.
+    Reading cell RAMB4_S8_S8... Reading complete.
+    Reading cell RAMB4_S8_S16... Reading complete.
+    Reading cell RAMB4_S16_S16... Reading complete.
+    Reading cell RAMB16_S1... Reading complete.
+    Reading cell RAMB16_S2... Reading complete.
+    Reading cell RAMB16_S4... Reading complete.
+    Reading cell RAMB16_S9... Reading complete.
+    Reading cell RAMB16_S18... Reading complete.
+    Reading cell RAMB16_S36... Reading complete.
+    Reading cell RAMB16_S1_S1... Reading complete.
+    Reading cell RAMB16_S1_S2... Reading complete.
+    Reading cell RAMB16_S1_S4... Reading complete.
+    Reading cell RAMB16_S1_S9... Reading complete.
+    Reading cell RAMB16_S1_S18... Reading complete.
+    Reading cell RAMB16_S1_S36... Reading complete.
+    Reading cell RAMB16_S2_S2... Reading complete.
+    Reading cell RAMB16_S2_S4... Reading complete.
+    Reading cell RAMB16_S2_S9... Reading complete.
+    Reading cell RAMB16_S2_S18... Reading complete.
+    Reading cell RAMB16_S2_S36... Reading complete.
+    Reading cell RAMB16_S4_S4... Reading complete.
+    Reading cell RAMB16_S4_S9... Reading complete.
+    Reading cell RAMB16_S4_S18... Reading complete.
+    Reading cell RAMB16_S4_S36... Reading complete.
+    Reading cell RAMB16_S9_S9... Reading complete.
+    Reading cell RAMB16_S9_S18... Reading complete.
+    Reading cell RAMB16_S9_S36... Reading complete.
+    Reading cell RAMB16_S18_S18... Reading complete.
+    Reading cell RAMB16_S18_S36... Reading complete.
+    Reading cell RAMB16_S36_S36... Reading complete.
+    Reading cell RAMB16BWE_S18... Reading complete.
+    Reading cell RAMB16BWE_S36... Reading complete.
+    Reading cell RAMB16BWE_S18_S9... Reading complete.
+    Reading cell RAMB16BWE_S18_S18... Reading complete.
+    Reading cell RAMB16BWE_S36_S9... Reading complete.
+    Reading cell RAMB16BWE_S36_S18... Reading complete.
+    Reading cell RAMB16BWE_S36_S36... Reading complete.
+    Reading cell RAMB16BWER... Reading complete.
+    Reading cell RAMB8BWER... Reading complete.
+    Reading cell FIFO16... Reading complete.
+    Reading cell RAMB16... Reading complete.
+    Reading cell RAMB32_S64_ECC... Reading complete.
+    Reading cell FIFO18... Reading complete.
+    Reading cell FIFO18_36... Reading complete.
+    Reading cell FIFO36... Reading complete.
+    Reading cell FIFO36_72... Reading complete.
+    Reading cell RAMB18... Reading complete.
+    Reading cell RAMB36... Reading complete.
+    Reading cell RAMB18SDP... Reading complete.
+    Reading cell RAMB36SDP... Reading complete.
+    Reading cell FIFO18E1... Reading complete.
+    Reading cell FIFO36E1... Reading complete.
+    Reading cell FIFO18E2... Reading complete.
+    Reading cell FIFO36E2... Reading complete.
+    Reading cell RAMB18E2... Reading complete.
+    Reading cell RAMB36E2... Reading complete.
+    Reading cell URAM288... Reading complete.
+    Reading cell URAM288_BASE... Reading complete.
+    Reading cell DSP48E... Reading complete.
+    Reading cell DSP48E2... Reading complete.
+    Reading cell FDDRCPE... Reading complete.
+    Reading cell FDDRRSE... Reading complete.
+    Reading cell IFDDRCPE... Reading complete.
+    Reading cell IFDDRRSE... Reading complete.
+    Reading cell OFDDRCPE... Reading complete.
+    Reading cell OFDDRRSE... Reading complete.
+    Reading cell OFDDRTCPE... Reading complete.
+    Reading cell OFDDRTRSE... Reading complete.
+    Reading cell IDDR2... Reading complete.
+    Reading cell ODDR2... Reading complete.
+    Reading cell IDDR... Reading complete.
+    Reading cell IDDR_2CLK... Reading complete.
+    Reading cell ODDR... Reading complete.
+    Reading cell IDELAYCTRL... Reading complete.
+    Reading cell IDELAY... Reading complete.
+    Reading cell ISERDES... Reading complete.
+    Reading cell OSERDES... Reading complete.
+    Reading cell IODELAY... Reading complete.
+    Reading cell ISERDES_NODELAY... Reading complete.
+    Reading cell IODELAYE1... Reading complete.
+    Reading cell ISERDESE1... Reading complete.
+    Reading cell OSERDESE1... Reading complete.
+    Reading cell IDELAYE2... Reading complete.
+    Reading cell ODELAYE2... Reading complete.
+    Reading cell ISERDESE2... Reading complete.
+    Reading cell OSERDESE2... Reading complete.
+    Reading cell PHASER_IN... Reading complete.
+    Reading cell PHASER_IN_PHY... Reading complete.
+    Reading cell PHASER_OUT... Reading complete.
+    Reading cell PHASER_OUT_PHY... Reading complete.
+    Reading cell PHASER_REF... Reading complete.
+    Reading cell PHY_CONTROL... Reading complete.
+    Reading cell IDDRE1... Reading complete.
+    Reading cell ODDRE1... Reading complete.
+    Reading cell IDELAYE3... Reading complete.
+    Reading cell ODELAYE3... Reading complete.
+    Reading cell ISERDESE3... Reading complete.
+    Reading cell OSERDESE3... Reading complete.
+    Reading cell BITSLICE_CONTROL... Reading complete.
+    Reading cell RIU_OR... Reading complete.
+    Reading cell RX_BITSLICE... Reading complete.
+    Reading cell RXTX_BITSLICE... Reading complete.
+    Reading cell TX_BITSLICE... Reading complete.
+    Reading cell TX_BITSLICE_TRI... Reading complete.
+    Reading cell IODELAY2... Reading complete.
+    Reading cell IODRP2... Reading complete.
+    Reading cell IODRP2_MCB... Reading complete.
+    Reading cell ISERDES2... Reading complete.
+    Reading cell OSERDES2... Reading complete.
+    Reading cell IBUF_DLY_ADJ... Reading complete.
+    Reading cell IBUF_IBUFDISABLE... Reading complete.
+    Reading cell IBUF_INTERMDISABLE... Reading complete.
+    Reading cell IBUF_ANALOG... Reading complete.
+    Reading cell IBUFE3... Reading complete.
+    Reading cell IBUFDS... Reading complete.
+    Reading cell IBUFDS_DLY_ADJ... Reading complete.
+    Reading cell IBUFDS_IBUFDISABLE... Reading complete.
+    Reading cell IBUFDS_INTERMDISABLE... Reading complete.
+    Reading cell IBUFDS_DIFF_OUT... Reading complete.
+    Reading cell IBUFDS_DIFF_OUT_IBUFDISABLE... Reading complete.
+    Reading cell IBUFDS_DIFF_OUT_INTERMDISABLE... Reading complete.
+    Reading cell IBUFDSE3... Reading complete.
+    Reading cell IBUFDS_DPHY... Reading complete.
+    Reading cell IBUFGDS... Reading complete.
+    Reading cell IBUFGDS_DIFF_OUT... Reading complete.
+    Reading cell IOBUF_DCIEN... Reading complete.
+    Reading cell IOBUF_INTERMDISABLE... Reading complete.
+    Reading cell IOBUFE3... Reading complete.
+    Reading cell IOBUFDS... Reading complete.
+    Reading cell IOBUFDS_DCIEN... Reading complete.
+    Reading cell IOBUFDS_INTERMDISABLE... Reading complete.
+    Reading cell IOBUFDS_DIFF_OUT... Reading complete.
+    Reading cell IOBUFDS_DIFF_OUT_DCIEN... Reading complete.
+    Reading cell IOBUFDS_DIFF_OUT_INTERMDISABLE... Reading complete.
+    Reading cell IOBUFDSE3... Reading complete.
+    Reading cell OBUFDS... Reading complete.
+    Reading cell OBUFDS_DPHY... Reading complete.
+    Reading cell OBUFTDS... Reading complete.
+    Reading cell KEEPER... Reading complete.
+    Reading cell PULLDOWN... Reading complete.
+    Reading cell PULLUP... Reading complete.
+    Reading cell DCIRESET... Reading complete.
+    Reading cell HPIO_VREF... Reading complete.
+    Reading cell BUFGCE... Reading complete.
+    Reading cell BUFGCE_1... Reading complete.
+    Reading cell BUFGMUX... Reading complete.
+    Reading cell BUFGMUX_1... Reading complete.
+    Reading cell BUFGMUX_CTRL... Reading complete.
+    Reading cell BUFGMUX_VIRTEX4... Reading complete.
+    Reading cell BUFG_GT... Reading complete.
+    Reading cell BUFG_GT_SYNC... Reading complete.
+    Reading cell BUFG_PS... Reading complete.
+    Reading cell BUFGCE_DIV... Reading complete.
+    Reading cell BUFH... Reading complete.
+    Reading cell BUFIO2... Reading complete.
+    Reading cell BUFIO2_2CLK... Reading complete.
+    Reading cell BUFIO2FB... Reading complete.
+    Reading cell BUFPLL... Reading complete.
+    Reading cell BUFPLL_MCB... Reading complete.
+    Reading cell BUFIO... Reading complete.
+    Reading cell BUFIODQS... Reading complete.
+    Reading cell BUFR... Reading complete.
+    Reading cell BUFMR... Reading complete.
+    Reading cell BUFMRCE... Reading complete.
+    Reading cell DCM... Reading complete.
+    Reading cell DCM_SP... Reading complete.
+    Reading cell DCM_CLKGEN... Reading complete.
+    Reading cell DCM_ADV... Reading complete.
+    Reading cell DCM_BASE... Reading complete.
+    Reading cell DCM_PS... Reading complete.
+    Reading cell PMCD... Reading complete.
+    Reading cell PLL_ADV... Reading complete.
+    Reading cell PLL_BASE... Reading complete.
+    Reading cell MMCM_ADV... Reading complete.
+    Reading cell MMCM_BASE... Reading complete.
+    Reading cell MMCME2_ADV... Reading complete.
+    Reading cell MMCME2_BASE... Reading complete.
+    Reading cell PLLE2_ADV... Reading complete.
+    Reading cell PLLE2_BASE... Reading complete.
+    Reading cell MMCME3_ADV... Reading complete.
+    Reading cell MMCME3_BASE... Reading complete.
+    Reading cell PLLE3_ADV... Reading complete.
+    Reading cell PLLE3_BASE... Reading complete.
+    Reading cell MMCME4_ADV... Reading complete.
+    Reading cell MMCME4_BASE... Reading complete.
+    Reading cell PLLE4_ADV... Reading complete.
+    Reading cell PLLE4_BASE... Reading complete.
+    Reading cell BUFT... Reading complete.
+    Reading cell IN_FIFO... Reading complete.
+    Reading cell OUT_FIFO... Reading complete.
+    Reading cell HARD_SYNC... Reading complete.
+    Reading cell STARTUP_SPARTAN3... Reading complete.
+    Reading cell STARTUP_SPARTAN3E... Reading complete.
+    Reading cell STARTUP_SPARTAN3A... Reading complete.
+    Reading cell STARTUP_SPARTAN6... Reading complete.
+    Reading cell STARTUP_VIRTEX4... Reading complete.
+    Reading cell STARTUP_VIRTEX5... Reading complete.
+    Reading cell STARTUP_VIRTEX6... Reading complete.
+    Reading cell STARTUPE2... Reading complete.
+    Reading cell STARTUPE3... Reading complete.
+    Reading cell CAPTURE_SPARTAN3... Reading complete.
+    Reading cell CAPTURE_SPARTAN3A... Reading complete.
+    Reading cell CAPTURE_VIRTEX4... Reading complete.
+    Reading cell CAPTURE_VIRTEX5... Reading complete.
+    Reading cell CAPTURE_VIRTEX6... Reading complete.
+    Reading cell CAPTUREE2... Reading complete.
+    Reading cell ICAP_SPARTAN3A... Reading complete.
+    Reading cell ICAP_SPARTAN6... Reading complete.
+    Reading cell ICAP_VIRTEX4... Reading complete.
+    Reading cell ICAP_VIRTEX5... Reading complete.
+    Reading cell ICAP_VIRTEX6... Reading complete.
+    Reading cell ICAPE2... Reading complete.
+    Reading cell ICAPE3... Reading complete.
+    Reading cell BSCAN_SPARTAN3... Reading complete.
+    Reading cell BSCAN_SPARTAN3A... Reading complete.
+    Reading cell BSCAN_SPARTAN6... Reading complete.
+    Reading cell BSCAN_VIRTEX4... Reading complete.
+    Reading cell BSCAN_VIRTEX5... Reading complete.
+    Reading cell BSCAN_VIRTEX6... Reading complete.
+    Reading cell BSCANE2... Reading complete.
+    Reading cell DNA_PORT... Reading complete.
+    Reading cell DNA_PORTE2... Reading complete.
+    Reading cell FRAME_ECC_VIRTEX4... Reading complete.
+    Reading cell FRAME_ECC_VIRTEX5... Reading complete.
+    Reading cell FRAME_ECC_VIRTEX6... Reading complete.
+    Reading cell FRAME_ECCE2... Reading complete.
+    Reading cell FRAME_ECCE3... Reading complete.
+    Reading cell FRAME_ECCE4... Reading complete.
+    Reading cell USR_ACCESS_VIRTEX4... Reading complete.
+    Reading cell USR_ACCESS_VIRTEX5... Reading complete.
+    Reading cell USR_ACCESS_VIRTEX6... Reading complete.
+    Reading cell USR_ACCESSE2... Reading complete.
+    Reading cell POST_CRC_INTERNAL... Reading complete.
+    Reading cell SUSPEND_SYNC... Reading complete.
+    Reading cell KEY_CLEAR... Reading complete.
+    Reading cell MASTER_JTAG... Reading complete.
+    Reading cell SPI_ACCESS... Reading complete.
+    Reading cell EFUSE_USR... Reading complete.
+    Reading cell SYSMON... Reading complete.
+    Reading cell XADC... Reading complete.
+    Reading cell SYSMONE1... Reading complete.
+    Reading cell SYSMONE4... Reading complete.
+    Reading cell GTPA1_DUAL... Reading complete.
+    Reading cell GT11_CUSTOM... Reading complete.
+    Reading cell GT11_DUAL... Reading complete.
+    Reading cell GT11CLK... Reading complete.
+    Reading cell GT11CLK_MGT... Reading complete.
+    Reading cell GTP_DUAL... Reading complete.
+    Reading cell GTX_DUAL... Reading complete.
+    Reading cell CRC32... Reading complete.
+    Reading cell CRC64... Reading complete.
+    Reading cell GTHE1_QUAD... Reading complete.
+    Reading cell GTXE1... Reading complete.
+    Reading cell IBUFDS_GTXE1... Reading complete.
+    Reading cell IBUFDS_GTHE1... Reading complete.
+    Reading cell GTHE2_CHANNEL... Reading complete.
+    Reading cell GTHE2_COMMON... Reading complete.
+    Reading cell GTPE2_CHANNEL... Reading complete.
+    Reading cell GTPE2_COMMON... Reading complete.
+    Reading cell GTXE2_CHANNEL... Reading complete.
+    Reading cell GTXE2_COMMON... Reading complete.
+    Reading cell IBUFDS_GTE2... Reading complete.
+    Reading cell GTHE3_CHANNEL... Reading complete.
+    Reading cell GTHE3_COMMON... Reading complete.
+    Reading cell GTYE3_CHANNEL... Reading complete.
+    Reading cell GTYE3_COMMON... Reading complete.
+    Reading cell IBUFDS_GTE3... Reading complete.
+    Reading cell OBUFDS_GTE3... Reading complete.
+    Reading cell OBUFDS_GTE3_ADV... Reading complete.
+    Reading cell GTHE4_CHANNEL... Reading complete.
+    Reading cell GTHE4_COMMON... Reading complete.
+    Reading cell GTYE4_CHANNEL... Reading complete.
+    Reading cell GTYE4_COMMON... Reading complete.
+    Reading cell IBUFDS_GTE4... Reading complete.
+    Reading cell OBUFDS_GTE4... Reading complete.
+    Reading cell OBUFDS_GTE4_ADV... Reading complete.
+    Reading cell GTM_DUAL... Reading complete.
+    Reading cell IBUFDS_GTM... Reading complete.
+    Reading cell OBUFDS_GTM... Reading complete.
+    Reading cell OBUFDS_GTM_ADV... Reading complete.
+    Reading cell HSDAC... Reading complete.
+    Reading cell HSADC... Reading complete.
+    Reading cell RFDAC... Reading complete.
+    Reading cell RFADC... Reading complete.
+    Reading cell PCIE_A1... Reading complete.
+    Reading cell PCIE_EP... Reading complete.
+    Reading cell PCIE_2_0... Reading complete.
+    Reading cell PCIE_2_1... Reading complete.
+    Reading cell PCIE_3_0... Reading complete.
+    Reading cell PCIE_3_1... Reading complete.
+    Reading cell PCIE40E4... Reading complete.
+    Reading cell PCIE4CE4... Reading complete.
+    Reading cell EMAC... Reading complete.
+    Reading cell TEMAC... Reading complete.
+    Reading cell TEMAC_SINGLE... Reading complete.
+    Reading cell CMAC... Reading complete.
+    Reading cell CMACE4... Reading complete.
+    Reading cell MCB... Reading complete.
+    Reading cell HBM_REF_CLK... Reading complete.
+    Reading cell HBM_SNGLBLI_INTF_APB... Reading complete.
+    Reading cell HBM_SNGLBLI_INTF_AXI... Reading complete.
+    Reading cell HBM_ONE_STACK_INTF... Reading complete.
+    Reading cell HBM_TWO_STACK_INTF... Reading complete.
+    Reading cell PPC405_ADV... Reading complete.
+    Reading cell PPC440... Reading complete.
+    Reading cell PS7... Reading complete.
+    Reading cell PS8... Reading complete.
+    Reading cell ILKN... Reading complete.
+    Reading cell ILKNE4... Reading complete.
+    Reading cell VCU... Reading complete.
+    Reading cell FE... Reading complete.
+    Reading cell id00007... Reading complete.
+    Reading cell id00008... Reading complete.
+    Reading cell id00009... Reading complete.
+    Reading cell id00010... Reading complete.
+    Reading cell id00011... Reading complete.
+Reading library LIB complete.
+Reading design library DESIGN...
+    Reading cell main... Reading complete.
+Reading library DESIGN complete.
+EDIF file reading complete.
+Flattening netlist for module main...
+Netlist is flattened.
+Reading netlist into FPGA standard database.
+Set technology node to TSMC 40nm ULP, timing analysis view to tt1p1v25c_Typical.
+Default timing parameters are from 1K_T40ULP.
+Merging VDD/GND signals...
+Processing global GND signals...
+Processing global VDD signals...
+Starting redundant-FF reduction...Total 13 FFs reduced after duplicate FF reduction.
+Processing RAM/FF/IO control signals...
+Reducing LUTs with VDD/GND/BUF/DUP propagation...
+31 LUTs reduced and 0 LUTs removed with VDD/GND/BUF/DUP propagation, 4 LUTs reduced with input sensitivity analysis.
+Mapping DSPs to FPGA DSP...
+Processing DSP registers...
+Processing set/reset signals...
+Further reducing LUTs with VDD/GND/BUF/DUP propagation...
+4 LUTs reduced and 0 LUTs removed with VDD/GND/BUF/DUP propagation, 0 LUTs reduced with input sensitivity analysis.
+EDIF Parser complete.
+
+
+Start LUT-packing & FPGA Mapping:
+Total 3510 instances to pack...
+Parsing SDC has found 1 warning. Please see log file ta_message\ta_0000_message.log for details.
+         Clock        Group  Achievable Frequency(MHz)
+--------------  -----------  -------------------------
+           clk    <DEFAULT>                     4.743 
+
+
+Reading user I/O spec for I/O packing...
+Warning: User IO g_3509_spi_ss_n_ibuf is driving data and control signals at the same time, this cannot be packed into IOB FF.
+Warning: User IO g_3509_spi_ss_n_ibuf is not packed with an IOB FF. This may cause potential interface timing issues.
+Warning: User IO g_3506_spi_miso_en_obuf is not packed with an IOB FF. This may cause potential interface timing issues.
+Warning: User IO g_3504_rst_n_ibuf is not packed with an IOB FF. This may cause potential interface timing issues.
+Pre-LUT-packing timing:
+Parsing SDC has found 1 warning. Please see log file ta_message\ta_0001_message.log for details.
+         Clock        Group  Achievable Frequency(MHz)
+--------------  -----------  -------------------------
+           clk    <DEFAULT>                     4.743 
+
+
+
+Starting design-rule-driven LUT packing...
+Net 2: clk, is a clock net.
+      10 new instances packed into    6 CLBs after IO packing.
+       0 new instances packed into    6 CLBs after RAM and DSP packing.
+       0 new instances clustered into    0 clusters after clock synchronizer FF clustering
+     890 new instances packed into  189 CLBs after carry-chain packing.
+       0 new instances packed into  189 CLBs after RAM_SRL packing
+Complete design-rule-driven LUT packing.
+
+Starting CLB clustering for remaining instances...
+       0 new instances clustered into    0 clusters after MUXF/ROM clustering, CLB count 189
+    2756 new instances clustered into 1783 clusters after LUT clustering
+       0 new instances packed into  189 CLBs after LUT cluster-packing
+      44 new instances clustered into 1827 clusters after FF clustering
+Complete CLB clustering, 23 non-CLB instances skipped.
+Re-computing pre-LUT-packing timing after design-rule-driven packing:
+Parsing SDC has found 1 warning. Please see log file ta_message\ta_0002_message.log for details.
+         Clock        Group  Achievable Frequency(MHz)
+--------------  -----------  -------------------------
+           clk    <DEFAULT>                     4.743 
+
+
+Starting timing-driven LUT packing...
+      68 new instances packed into  197 CLBs after stage 1 timing-driven LUT packing
+      97 new instances packed into  209 CLBs after stage 2 timing-driven LUT packing
+     957 new instances packed into  358 CLBs after stage 3 timing-driven LUT packing
+     208 new instances packed into  389 CLBs after stage 4 timing-driven LUT packing
+Note: pack_timing_cluster_find_candidate inst 1373 has already_packed=63 and clustering_index=-1
+Note: pack_timing_cluster_find_candidate inst 215 has already_packed=31 and clustering_index=-1
+Note: pack_timing_cluster_find_candidate inst 2190 has already_packed=116 and clustering_index=-1
+Note: pack_timing_cluster_find_candidate inst 2356 has already_packed=124 and clustering_index=-1
+Note: pack_timing_cluster_find_candidate inst 807 has already_packed=39 and clustering_index=-1
+     121 new instances packed into  417 CLBs after stage 5 timing-driven LUT packing
+     289 new instances packed into  495 CLBs after stage 6 timing-driven LUT packing
+     385 new instances packed into  495 CLBs after stage 7 connectivity-timing-driven LUT packing
+     684 new instances packed into  583 CLBs after final connectivity-timing-driven LUT packing
+   0 instances remain unpacked
+Complete LUT packing.
+
+Verifying packed netlist against original, unpacked netlist...
+Packing verified: 1
+Runtime of packing: 0:0:3(CPU time), 0:0:3(real time)
+
+
+####   Resource Utilization Report   ####
+
+    Top level module name: main
+
+    Resource usage:
+     577 Logic 6-LUT CLBs
+         2190 CLB LUTs utilized (up to 4 per CLB)
+               381 of which are 6-input LUTs
+               359 of which are dual 5-input LUTs
+              2549 LUTs total
+          888 CLB FFs utilized (up to 4 pairs per CLB)
+               888 of which are LUT-FF combination
+               129 of which are dual-FFs
+               121 of which are dual-LUT-dual-FF combination
+              1017 FFs total
+       6 I/O CLBs
+            4  Input pins
+            2  Input FFs utilized
+            3 Output pins
+            1 Output FFs utilized
+       1 Clock
+           Clock 0: net     2, clk, Fanout: 322 CLBs
+           Total 1 unique clocks
+    need 0 DSP and 5 Logic-Memory FPGA 1K Tiles.
+
+ 
+####   Resource Utilization Complete   ####
+
+Post-LUT-packing timing:
+Parsing SDC has found 1 warning. Please see log file ta_message\ta_0003_message.log for details.
+         Clock        Group  Achievable Frequency(MHz)
+--------------  -----------  -------------------------
+           clk    <DEFAULT>                    11.429 
+
+
+Saving packing database file...
+,
+async type 0
+async type 0 done
+,.
+Resource estimation complete.
+
+RUN_FPGA_PLACER_DONE 1 3d1397c4
+Reading FPGA floorplan information:
+FPGA Compiler FPGA-1K only support FPGA-1K Tiles...
+Tile chip_x=0 chip_y=0: Logic-Memory Tile
+Total tile floorplan size: chip_x=32 chip_y=32
+Populating FPGA Tiles...
+Tile chip_x=0 chip_y=0:
+A FPGA-1K Logic-Memory Tile has:
+                       184 IOBs
+                       140 Logic 6-LUT CLBs
+                              40 CLBs support RAM/SR
+Connecting FPGA interconnect network...
+
+### Total FPGA resources from current floorplan: ###
+                       184 IOBs
+                       140 Logic 6-LUT CLBs
+                              40 CLBs support RAM/SR
+
+Usage of Logic CLBs is 412.1%.
+    Logic-Memory CLB for RAM/Shift-Register is 0.0%.
+Usage of LUTs is 391.1%.
+    dual-LUTs is 64.1%.
+Usage of FF is 158.6%.
+    dual-FF is 23.0%.
+Usage of IO CLB is 3.3%.
+Reading clock delay files...
+Read clock delay file C:/Program Files/Renesas Electronics/Go Configure Software Hub/external/eda-placer/v23/sdf_dly/T40ULP/FPGA_1K_LM_TILE_flat_tt1p1v25c_Typical.combined_clk.csv
+Read post-P&R SDF annotation file...
+Reading delay files...
+Opened L-M tile delay annotation file C:/Program Files/Renesas Electronics/Go Configure Software Hub/external/eda-placer/v23/sdf_dly/T40ULP/FPGA_1K_LM_TILE_flat_tt1p1v25c_Typical.dly...
+Done.
+,
+async type 0
+async type 0 done
+,.
+,
+async type 0
+
+Start 4 placement steps with up to 4 CPUs.
+(0)
+(3)
+(1)
+(2)
+
+
+Min-placement step: Set up placement.
+There are 585 instances. After combining instances in chains, there are 433 instances to place.
+There are 2436 nets in the design, 16 of which have fanout larger than 49. Average fanout is 3.03.
+There is 1 clock in the design.
+Resource usages:
+ Type=L: Capacity=140 Utilized=577 NumInst=427. [ChainLen=1]=395 [ChainLen=2]=9 [ChainLen=3]=4 [ChainLen=8]=19
+ Type=M: Capacity=40 Utilized=0 NumInst=0.
+ Type=IOB: Capacity=184 Utilized=6 NumInst=6.
+ Resource over-use on combined types=L,M: Capacity=140,- Utilized=577,0, NumInst=427,0
+ There won't be feasible placement because of resource over-use. Pleaes adjust the floorplan.
+
+FATAL ERROR: The design cannot fit into the current geometry.
+
+Finished all placement steps.
+
+MinPlacer failed.
+Reading FPGA floorplan information:
+
+Performing FPGA clock-tree routing and clock-skew balancing...
+Clock route delay annotating...
+
+Clock net clk latency:
+Performing FPGA detailed routing:
+,
+async type 0
+Running router version 0.
+FPGA P&R Error! Please see log file for error information.FPGA Compiler run terminated due to errors. Not launching GUI.
+Abnormal Exit due to errors
+Process exited with code 3
+######################################################################
+8/17/26 11:40 AM > Place-and-Route tool failed
+######################################################################
