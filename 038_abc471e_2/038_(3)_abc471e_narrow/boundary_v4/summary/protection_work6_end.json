@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-08-17T18:11:17.1537185+09:00",
+  "compared_with": "boundary_v4/summary/protection_work6_start.json",
+  "tree_checks": [
+    {"path":"ffpga","files":3,"digest":"20f5faf757e313e55b81bab5e50303f732b99397c706c8539fad11139ee19bcc","match":true},
+    {"path":"sim","files":1,"digest":"6fbe992e414ad73e00b3e69688c30218ecbf6a11f84d85b728e039c828a1243f","match":true},
+    {"path":"tools","files":3,"digest":"e7633d3cc0c7cfee051ad4b67f99231c7a2cd9a2c5ddc468f8d479815e6cb0ed","match":true},
+    {"path":"experiments","files":93,"digest":"e8fe4d82f480b252883e96ef18fc7f76d1a906d447b9a8cf24aef2197a7aca0a","match":true},
+    {"path":"diagnostics","files":50,"digest":"cff95ca49574188baaceec416a9d1609f047af49f49b0525d89fc5420e684d67","match":true},
+    {"path":"compact_v3","files":198,"digest":"480fec5afacd3ee2a0b480de7376569fb7db5d9c11b0e6a5476e250cd6382919","match":true},
+    {"path":"boundary_v4","excluded":"summary/","files":532,"digest":"e26118866228e85387c6b061d7229bc19a641aa72ca3b2fa87b736bc4735a382","match":true}
+  ],
+  "document_files_checked": 18,
+  "all_document_hashes_match_start": true,
+  "inventory_validation": {
+    "csv_rows": 33,
+    "json_rows": 33,
+    "unique_width_nmax_keys": 33,
+    "missing_source_artifacts": 0,
+    "icarus_pass_rows": 33,
+    "full_regression_42_of_42_rows": 5,
+    "pnr_run_rows": 11,
+    "place_fit_rows": 5,
+    "pnr_complete_rows": 5,
+    "bitstream_output_files": 0
+  },
+  "work6_actions": {
+    "new_icarus_runs": 0,
+    "new_post_synthesis_runs": 0,
+    "new_pnr_runs": 0,
+    "rtl_modified": false,
+    "existing_candidate_artifacts_modified": false,
+    "dedicated_interrupted_forge_pid_running_at_end": false
+  }
+}

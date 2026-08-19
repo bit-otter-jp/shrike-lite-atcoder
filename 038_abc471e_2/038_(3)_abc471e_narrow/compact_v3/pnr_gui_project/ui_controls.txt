@@ -1,0 +1,231 @@
+﻿PROCESS_ID=105056
+WINDOWS=2
+WINDOW_NAME=ForgeFPGA Workshop [abc471e_narrow_pnr.ffpga]
+ELEMENTS=94
+TYPE=ControlType.MenuBar`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=File`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Edit`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Tools`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Window`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Options`tID=QApplication.FPGA::Gui::FpgaEditorWindow.FPGA::Gui::MainMenu.QAction`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar`tENABLED=True
+TYPE=ControlType.Button`tNAME=Save All`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Modules Library`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=New Custom Module`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Messages`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar`tENABLED=True
+TYPE=ControlType.Button`tNAME=Netlist`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Post-Synth RTL`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=I/O Planner`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Floorplan`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Synthesis Report`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Resources Report`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Timing Analysis`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Macrocell Editor`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=PLL Configurator`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Simulation`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QToolBar.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget`tENABLED=True
+TYPE=ControlType.Button`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::FlatButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::FlatButton`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=General Log`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::InfoButton`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Synthesis Log`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::InfoButton`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Bitstream Log`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::InfoButton`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Issues`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QWidget.FPGA::Gui::InfoButton`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QStackedWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QStackedWidget.FPGA::Gui::LogViewer`tENABLED=True
+TYPE=ControlType.Edit`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QStackedWidget.FPGA::Gui::LogViewer.FPGA::Gui::PlainTextEdit`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::MessagesPanel.QStackedWidget.FPGA::Gui::LogViewer.FPGA::Gui::PlainTextEdit.qt_scrollarea_viewport`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::NotificationContainer`tENABLED=True
+TYPE=ControlType.Edit`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::TextEditor`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::TextEditor.qt_scrollarea_viewport`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::TextEditor.QWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::TextEditor.qt_scrollarea_vcontainer`tENABLED=True
+TYPE=ControlType.ScrollBar`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.qt_tabwidget_stackedwidget.FPGA::Gui::TextView.QWidget.FPGA::Gui::TextEditor.qt_scrollarea_vcontainer.QScrollBar`tENABLED=True
+TYPE=ControlType.Tab`tNAME=main.v`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=main.v`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=I/O Planner`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=spi_target.v`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Timing Analysis`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=atcoder_spi_template_v3.sdc`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Floorplan`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.FPGA::Gui::TabBar`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.QWidget`tENABLED=True
+TYPE=ControlType.Button`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.QWidget.QPushButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.FPGA::Gui::WorkAreaPanel.FPGA::Gui::WorkingPanel.FPGA::Gui::PageController.QFrame.FPGA::Gui::TabWidget.QWidget.QPushButton`tENABLED=False
+TYPE=ControlType.Thumb`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.QSplitter.qt_splithandle_`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel`tENABLED=True
+TYPE=ControlType.Text`tNAME=Sources`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.QLabel`tENABLED=True
+TYPE=ControlType.Tree`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Project`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Source Code`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Custom Code`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=main.v`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=spi_target.v`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Modules Library`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Testbenches`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Timing Constraints`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=atcoder_spi_template_v3.sdc`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Placement Constraints`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=External Netlists`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::SourcesViewPanel.FPGA::Gui::SourceTreeView`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::ResourceUtilizationView`tENABLED=True
+TYPE=ControlType.Text`tNAME=Resources Report`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::ResourceUtilizationView.QLabel`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::ResourceUtilizationView.QStackedWidget`tENABLED=True
+TYPE=ControlType.Text`tNAME=Compile project to get resources report`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.FPGA::Gui::ResourceUtilizationView.QStackedWidget.FPGA::Gui::StubLabel`tENABLED=False
+TYPE=ControlType.Thumb`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.QSplitter.qt_splithandle_`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ControlButtons`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ControlButtons.QFrame`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ControlButtons.QFrame`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ProjectPipelinePanel`tENABLED=True
+TYPE=ControlType.Button`tNAME=Synthesize`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ProjectPipelinePanel.fpga-project-pipeline-Synthesize-button`tENABLED=True
+TYPE=ControlType.Image`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ProjectPipelinePanel.fpga-project-pipeline-Synthesize-status-label`tENABLED=True
+TYPE=ControlType.Button`tNAME=Generate Bitstream`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ProjectPipelinePanel.fpga-project-pipeline-GenerateBitstream-button`tENABLED=True
+TYPE=ControlType.Image`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.FPGA::Gui::ControlPanel.FPGA::Gui::ProjectPipelinePanel.fpga-project-pipeline-GenerateBitstream-status-label`tENABLED=True
+TYPE=ControlType.Thumb`tNAME=`tID=QApplication.FPGA::Gui::FpgaEditorWindow.QWidget.QSplitter.qt_splithandle_`tENABLED=True
+WINDOW_NAME=[SLG47910V (Rev BB)] - [abc471e_narrow_pnr.ffpga] - ForgeFPGA Workshop v.6.54
+ELEMENTS=131
+TYPE=ControlType.Pane`tNAME=Properties`tID=QApplication.MainWindowBase.dockWidgetProperties`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.dockWidgetProperties.QStackedWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetProperties.QStackedWidget.QScrollArea`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetProperties.QStackedWidget.QScrollArea.qt_scrollarea_viewport`tENABLED=True
+TYPE=ControlType.Button`tNAME=Close`tID=QApplication.MainWindowBase.dockWidgetProperties.qt_dockwidget_closebutton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Float`tID=QApplication.MainWindowBase.dockWidgetProperties.qt_dockwidget_floatbutton`tENABLED=True
+TYPE=ControlType.MenuBar`tNAME=`tID=QApplication.MainWindowBase.menuBar`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=File`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Edit`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=View`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Tools`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Options`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Help`tID=QApplication.MainWindowBase.menuBar.QAction`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Alignment and Rotation`tID=QApplication.MainWindowBase.tbAlignRotate`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rotate Left`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rotate Right`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbAlignRotate.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Flip Horizontal`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Flip Vertical`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbAlignRotate.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Align Horizontal`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Align Vertical`tID=QApplication.MainWindowBase.tbAlignRotate.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Drawing`tID=QApplication.MainWindowBase.tbDrawTools`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Draw Frame`tID=QApplication.MainWindowBase.tbDrawTools.QToolButton`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Draw Custom Frame`tID=QApplication.MainWindowBase.tbDrawTools.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Tabs`tID=QApplication.MainWindowBase.tbTabs`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=`tID=QApplication.MainWindowBase.tbTabs.qt_toolbar_ext_button`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Properties`tID=QApplication.MainWindowBase.tbTabs.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=File`tID=QApplication.MainWindowBase.tbFile`tENABLED=True
+TYPE=ControlType.Button`tNAME=New`tID=QApplication.MainWindowBase.tbFile.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Open`tID=QApplication.MainWindowBase.tbFile.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Save`tID=QApplication.MainWindowBase.tbFile.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbFile.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Print`tID=QApplication.MainWindowBase.tbFile.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Wire`tID=QApplication.MainWindowBase.tbWire`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Set Wire`tID=QApplication.MainWindowBase.tbWire.QToolButton`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Erase Wire`tID=QApplication.MainWindowBase.tbWire.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Label`tID=QApplication.MainWindowBase.tbLabel`tENABLED=True
+TYPE=ControlType.Button`tNAME=Set Label`tID=QApplication.MainWindowBase.tbLabel.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Erase Label`tID=QApplication.MainWindowBase.tbLabel.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Tools`tID=QApplication.MainWindowBase.tbTools`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=`tID=QApplication.MainWindowBase.tbTools.qt_toolbar_ext_button`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rule Checker`tID=QApplication.MainWindowBase.tbTools.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbTools.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=FPGA Editor`tID=QApplication.MainWindowBase.tbTools.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbTools.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Debug`tID=QApplication.MainWindowBase.tbTools.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbTools.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Comparison`tID=QApplication.MainWindowBase.tbTools.QToolButton`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Project settings`tID=QApplication.MainWindowBase.tbProjSettings`tENABLED=True
+TYPE=ControlType.Button`tNAME=Project Settings`tID=QApplication.MainWindowBase.tbProjSettings.QToolButton`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.tbProjSettings.QToolBarSeparator`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Undo`tID=QApplication.MainWindowBase.tbUndo`tENABLED=True
+TYPE=ControlType.Button`tNAME=Undo`tID=QApplication.MainWindowBase.tbUndo.QToolButton`tENABLED=False
+TYPE=ControlType.Button`tNAME=Redo`tID=QApplication.MainWindowBase.tbUndo.QToolButton`tENABLED=False
+TYPE=ControlType.Pane`tNAME=Component List`tID=QApplication.MainWindowBase.dockWidgetComponentsList`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget`tENABLED=True
+TYPE=ControlType.Text`tNAME=Components`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.captionLabel_Components`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget`tENABLED=True
+TYPE=ControlType.Tree`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=I/O Pins`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO10 (PIN 1)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO11 (PIN 2)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO12 (PIN 3)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO13 (PIN 4)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO14 (PIN 5)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO15 (PIN 6)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO16 (PIN 7/GrP2)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO17 (PIN 8/GrP1)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO18 (PIN 9/GrP0)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=nSLEEP (PIN 10)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=nRST (PIN 11)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GND (PIN 12)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO0 (PIN 13)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO1 (PIN 14)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO2 (PIN 15)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO3 (PIN 16)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO4 (PIN 17)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO5 (PIN 18)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO6 (PIN 19)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO7 (PIN 20)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=VDDIO (PIN 21)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=VDDC (PIN 22)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO8 (PIN 23)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO9 (PIN 24)`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Special Components`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=FPGA`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=OSC`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Phase-Locked Loop`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=BRAM`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=FPGA Core`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.QSplitter.QWidget.ComponentsTreeWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter.filterFrame`tENABLED=True
+TYPE=ControlType.Edit`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter.filterFrame.FilterLine`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter.buttonsFrame`tENABLED=True
+TYPE=ControlType.Button`tNAME=Show all`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter.buttonsFrame.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Hide all`tID=QApplication.MainWindowBase.dockWidgetComponentsList.QScrollArea.qt_scrollarea_viewport.QWidget.ComponentDockWidgetFilter.buttonsFrame.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Close`tID=QApplication.MainWindowBase.dockWidgetComponentsList.qt_dockwidget_closebutton`tENABLED=True
+TYPE=ControlType.Tab`tNAME=Properties`tID=QApplication.MainWindowBase.QMainWindowTabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Properties`tID=QApplication.MainWindowBase.QMainWindowTabBar`tENABLED=True
+TYPE=ControlType.Tab`tNAME=Component List`tID=QApplication.MainWindowBase.QMainWindowTabBar`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Component List`tID=QApplication.MainWindowBase.QMainWindowTabBar`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.QSplitter`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.QSplitter.WorkareaWidget`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.QSplitter.WorkareaWidget.graphicsView`tENABLED=True
+TYPE=ControlType.Group`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.QSplitter.WorkareaWidget.graphicsView.QWidget`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame`tENABLED=True
+TYPE=ControlType.Text`tNAME=-`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QLabel`tENABLED=False
+TYPE=ControlType.Slider`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.ZoomSlider`tENABLED=True
+TYPE=ControlType.Text`tNAME=+`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QLabel`tENABLED=False
+TYPE=ControlType.Button`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QToolButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QToolButton`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QFrame`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Fullscreen Mode`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QToolButton`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QToolButton`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QToolButton`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.scrollArea.qt_scrollarea_viewport.scrollAreaWidgetContents_2.splittedWorkareas.controlFrame.QFrame`tENABLED=True
+TYPE=ControlType.Custom`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.updateNotificationFrame`tENABLED=True
+TYPE=ControlType.Image`tNAME=`tID=QApplication.MainWindowBase.centralWidget.frame.updateNotificationFrame.iconLabel`tENABLED=True
+TYPE=ControlType.Text`tNAME=New version 6.55.001 available. Do you want to update now?`tID=QApplication.MainWindowBase.centralWidget.frame.updateNotificationFrame.textLabel`tENABLED=True
+TYPE=ControlType.Button`tNAME=OK`tID=QApplication.MainWindowBase.centralWidget.frame.updateNotificationFrame.acceptButton`tENABLED=True
+TYPE=ControlType.Button`tNAME=Cancel`tID=QApplication.MainWindowBase.centralWidget.frame.updateNotificationFrame.cancelButton`tENABLED=True

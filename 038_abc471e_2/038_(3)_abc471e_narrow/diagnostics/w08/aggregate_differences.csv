@@ -1,0 +1,4 @@
+aggregate,definition,wires,wire_bits,cells,CARRY4,FDCE,FDPE,ff_total,INV,LUT2,LUT3,LUT4,LUT5,LUT6,lut_total,MUXF7,MUXF8,lut_mux_total
+coefficient_pow_aggregate,W08_BASELINE - coefficient_pow_fixed,412,1050,486,14,84,2,86,17,106,46,59,122,39,372,-2,-1,369
+final_aggregate,coefficient_pow_fixed - input_only,65,181,104,0,33,0,33,0,-4,1,35,-2,38,68,2,1,71
+input_arithmetic_aggregate,input_only - protocol_only,296,571,265,13,87,1,88,4,35,19,36,39,31,160,0,0,160

@@ -1,0 +1,424 @@
+[
+  {
+    "diagnostic": "W08_BASELINE",
+    "primitive_instances_parsed": 1171,
+    "source_boundaries": {
+      "multiplier_module_line": 852,
+      "top_add_start_line": 127,
+      "top_add_end_line": 137
+    },
+    "ff_by_source_category": {
+      "mapping_library_only": 17,
+      "shared_multiplier": 38,
+      "spi_target": 28,
+      "top_protocol_control": 225
+    },
+    "carry4_by_source_category": {
+      "mapping_library_only": 2,
+      "shared_multiplier": 6,
+      "spi_target": 1,
+      "top_add_sub": 5,
+      "top_protocol_control": 21
+    },
+    "ff_direct_driver_type": {
+      "FDCE": 10,
+      "FDPE": 2,
+      "LUT2": 80,
+      "LUT3": 17,
+      "LUT4": 54,
+      "LUT5": 79,
+      "LUT6": 63,
+      "other_or_direct": 3
+    },
+    "ff_direct_unique_combinational_drivers": 289,
+    "top_ff_direct_unique_lut_mux_drivers": 217,
+    "multiplier_ff_direct_driver_type": {
+      "LUT2": 1,
+      "LUT3": 3,
+      "LUT4": 15,
+      "LUT5": 3,
+      "LUT6": 16
+    },
+    "multiplier_ff_direct_unique_drivers": 38,
+    "multiplier_ff_shallow_cone_depth2_unique_primitives": 51,
+    "top_add_sub_input_neighbor_unique_lut_mux": 18,
+    "max_nonreset_nonraw_rx_fanout": 188,
+    "high_fanout_nonclock_nets": [
+      {
+        "net": "rst_n_INV_I_O",
+        "primitive_input_uses": 308
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I2_LUT3_O_I1_CARRY4_S_S_2_LUT5_O_I4_LUT5_I4_O_LUT2_I0_O[0]",
+        "primitive_input_uses": 188
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data",
+        "primitive_input_uses": 70
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT2_O_I1_LUT6_I5_O_FDCE_D_5_Q[1]",
+        "primitive_input_uses": 54
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O",
+        "primitive_input_uses": 48
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT2_O_I1_LUT2_O_I1_LUT2_I1_O[1]",
+        "primitive_input_uses": 38
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT4_O_I3_LUT5_I0_O_LUT4_O_2_I1_LUT2_I0_O_FDCE_D_Q_LUT3_I0_I2_LUT4_O_I2_LUT3_I1_O_FDCE_D_Q[0]",
+        "primitive_input_uses": 38
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT2_O_I1_LUT6_I5_O_FDCE_D_3_Q[0]",
+        "primitive_input_uses": 37
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I0_FDCE_Q_D_LUT6_O_I4_CARRY4_O_O_2[5]",
+        "primitive_input_uses": 32
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT2_O_I1_LUT6_I5_O_FDCE_D_2_Q",
+        "primitive_input_uses": 31
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT2_I0_O_LUT4_O_I0_LUT2_O_I0_LUT2_I0_1_O[3]",
+        "primitive_input_uses": 30
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I2_LUT4_O_I1_LUT5_I2_O_LUT2_O_I1_LUT6_I5_O_FDCE_D_5_Q[0]",
+        "primitive_input_uses": 30
+      }
+    ],
+    "launch_states": 11,
+    "lhs_sources": [
+      "coeff_pair",
+      "coeff_pair_work",
+      "coeff_square",
+      "denominator",
+      "numerator",
+      "pow_base",
+      "pow_result",
+      "s1",
+      "x_reg"
+    ],
+    "rhs_sources": [
+      "comb_factor_mod_value",
+      "comb_i",
+      "k_minus_one_mod_value",
+      "pow_base",
+      "pow_result",
+      "s1",
+      "s2",
+      "term_pair",
+      "x_reg"
+    ],
+    "unique_lhs_sources": 9,
+    "unique_rhs_sources": 9
+  },
+  {
+    "diagnostic": "coefficient_pow_fixed",
+    "primitive_instances_parsed": 685,
+    "source_boundaries": {
+      "multiplier_module_line": 584,
+      "top_add_start_line": 97,
+      "top_add_end_line": 107
+    },
+    "ff_by_source_category": {
+      "mapping_library_only": 28,
+      "shared_multiplier": 38,
+      "spi_target": 28,
+      "top_protocol_control": 128
+    },
+    "carry4_by_source_category": {
+      "shared_multiplier": 6,
+      "spi_target": 1,
+      "top_add_sub": 5,
+      "top_protocol_control": 9
+    },
+    "ff_direct_driver_type": {
+      "FDCE": 10,
+      "FDPE": 2,
+      "LUT2": 33,
+      "LUT3": 20,
+      "LUT4": 61,
+      "LUT5": 26,
+      "LUT6": 61,
+      "other_or_direct": 9
+    },
+    "ff_direct_unique_combinational_drivers": 204,
+    "top_ff_direct_unique_lut_mux_drivers": 121,
+    "multiplier_ff_direct_driver_type": {
+      "LUT2": 1,
+      "LUT3": 3,
+      "LUT4": 15,
+      "LUT5": 3,
+      "LUT6": 16
+    },
+    "multiplier_ff_direct_unique_drivers": 38,
+    "multiplier_ff_shallow_cone_depth2_unique_primitives": 51,
+    "top_add_sub_input_neighbor_unique_lut_mux": 16,
+    "max_nonreset_nonraw_rx_fanout": 112,
+    "high_fanout_nonclock_nets": [
+      {
+        "net": "rst_n_INV_I_O",
+        "primitive_input_uses": 222
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT5_I4_O_LUT5_O_I4_LUT5_O_I0_LUT4_I0_I3_LUT5_O_I2_LUT6_I4_2_O_LUT3_I2_O_FDCE_D_Q_LUT2_I0_O[2]",
+        "primitive_input_uses": 112
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O",
+        "primitive_input_uses": 77
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data",
+        "primitive_input_uses": 53
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_LUT2_O_1_I0_FDCE_Q_D_LUT4_O_I3_LUT2_I1_O",
+        "primitive_input_uses": 35
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT5_I4_O_LUT5_O_I4_LUT5_O_I0_LUT4_I0_I3_LUT5_O_I2_LUT6_I4_2_O_LUT3_I2_O_FDCE_D_Q_LUT2_I0_O[0]",
+        "primitive_input_uses": 33
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_LUT2_O_3_I0_LUT3_I0_O",
+        "primitive_input_uses": 29
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_LUT2_O_1_I0_FDCE_Q_D_LUT4_O_I3_LUT2_O_I1_LUT2_I1_O",
+        "primitive_input_uses": 28
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT4_I1_O_FDCE_D_Q_LUT4_I0_O_LUT4_O_I0_FDCE_Q_D_LUT4_O_I2_CARRY4_O_CI_CARRY4_CO_O_3_CARRY4_O_O_2[2]",
+        "primitive_input_uses": 24
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_LUT6_O_I5_LUT5_I4_O_CARRY4_DI_DI_2_LUT6_O_I0",
+        "primitive_input_uses": 24
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT4_I1_O_FDCE_D_Q_LUT4_I0_O_LUT4_O_I0_FDCE_Q_D_LUT4_O_I2_CARRY4_O_CI_CARRY4_CO_O_1_LUT4_I2_O_FDCE_D_Q[4]",
+        "primitive_input_uses": 24
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_LUT6_O_I5_LUT6_I5_O_LUT5_O_I0",
+        "primitive_input_uses": 23
+      }
+    ],
+    "launch_states": 4,
+    "lhs_sources": [
+      "1",
+      "2",
+      "s1",
+      "x_reg"
+    ],
+    "rhs_sources": [
+      "s1",
+      "s2",
+      "term_pair",
+      "x_reg"
+    ],
+    "unique_lhs_sources": 4,
+    "unique_rhs_sources": 4
+  },
+  {
+    "diagnostic": "input_only",
+    "primitive_instances_parsed": 581,
+    "source_boundaries": {
+      "multiplier_module_line": 461,
+      "top_add_start_line": 81,
+      "top_add_end_line": 91
+    },
+    "ff_by_source_category": {
+      "mapping_library_only": 19,
+      "shared_multiplier": 38,
+      "spi_target": 28,
+      "top_protocol_control": 104
+    },
+    "carry4_by_source_category": {
+      "shared_multiplier": 6,
+      "spi_target": 1,
+      "top_add_sub": 5,
+      "top_protocol_control": 9
+    },
+    "ff_direct_driver_type": {
+      "FDCE": 10,
+      "FDPE": 2,
+      "LUT2": 47,
+      "LUT3": 34,
+      "LUT4": 33,
+      "LUT5": 29,
+      "LUT6": 31,
+      "other_or_direct": 3
+    },
+    "ff_direct_unique_combinational_drivers": 178,
+    "top_ff_direct_unique_lut_mux_drivers": 104,
+    "multiplier_ff_direct_driver_type": {
+      "LUT2": 2,
+      "LUT3": 3,
+      "LUT4": 15,
+      "LUT5": 3,
+      "LUT6": 15
+    },
+    "multiplier_ff_direct_unique_drivers": 38,
+    "multiplier_ff_shallow_cone_depth2_unique_primitives": 51,
+    "top_add_sub_input_neighbor_unique_lut_mux": 16,
+    "max_nonreset_nonraw_rx_fanout": 70,
+    "high_fanout_nonclock_nets": [
+      {
+        "net": "rst_n_INV_I_O",
+        "primitive_input_uses": 189
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I2_LUT5_O_I2_LUT5_O_I0_LUT5_I0_O_LUT3_O_I1_CARRY4_O_O_LUT5_I3_O_LUT5_I3_O_FDCE_D_Q_FDCE_Q_D_LUT6_O_I2_LUT4_I0_O_LUT2_I1_O[2]",
+        "primitive_input_uses": 70
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data",
+        "primitive_input_uses": 61
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I2_LUT5_O_I2_LUT5_O_I0_LUT5_I0_O_LUT3_O_I1_CARRY4_O_O_LUT5_I3_O_LUT5_I3_O_FDCE_D_Q_FDCE_Q_D_LUT6_O_I2_LUT4_I0_O_LUT2_I1_O[0]",
+        "primitive_input_uses": 36
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I2_LUT5_O_I2_LUT5_O_I0_LUT5_I0_O_LUT3_O_I1_CARRY4_O_CI_CARRY4_CO_O_3_CARRY4_O_S_LUT6_O_I1_LUT5_I3_O_FDCE_D_Q[2]",
+        "primitive_input_uses": 28
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I1_LUT6_I5_I2_LUT3_O_I2_LUT2_I1_O_LUT3_I1_O[1]",
+        "primitive_input_uses": 26
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT6_I4_O_LUT5_I4_I2_LUT4_O_I0_LUT4_I1_O",
+        "primitive_input_uses": 25
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I2_LUT5_O_I2_LUT5_O_I0_LUT5_I0_O_LUT3_O_I1_CARRY4_O_O_LUT5_I3_O_LUT5_I3_O_FDCE_D_Q_FDCE_Q_D_LUT6_O_I2_CARRY4_DI_CO_CARRY4_CI_O_3[2]",
+        "primitive_input_uses": 23
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I1_LUT2_O_I1_LUT4_I3_O_LUT5_I0_O_FDPE_D_Q[5]",
+        "primitive_input_uses": 23
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O",
+        "primitive_input_uses": 20
+      },
+      {
+        "net": "spi_miso_FDCE_Q_D_LUT3_O_I0_FDCE_Q_D_LUT5_O_I2_LUT5_O_I2_LUT5_O_I0_LUT5_I0_O_LUT3_O_I1_CARRY4_O_O_LUT4_I2_O_FDCE_D_Q_LUT4_I0_O_FDCE_Q_D_LUT6_O_I4_FDCE_Q_D_LUT6_I5_I2_FDCE_D_Q[1]",
+        "primitive_input_uses": 20
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_LUT6_I4_O_LUT5_I4_I2_LUT5_I3_O_FDCE_D_Q_FDCE_Q_D_LUT4_O_I0_LUT5_I3_O_FDCE_D_Q_LUT2_I0_O[2]",
+        "primitive_input_uses": 18
+      }
+    ],
+    "launch_states": 1,
+    "lhs_sources": [
+      "x_reg"
+    ],
+    "rhs_sources": [
+      "x_reg"
+    ],
+    "unique_lhs_sources": 1,
+    "unique_rhs_sources": 1
+  },
+  {
+    "diagnostic": "protocol_only",
+    "primitive_instances_parsed": 316,
+    "source_boundaries": {
+      "multiplier_module_line": null,
+      "top_add_start_line": null,
+      "top_add_end_line": 54
+    },
+    "ff_by_source_category": {
+      "mapping_library_only": 11,
+      "spi_target": 28,
+      "top_protocol_control": 62
+    },
+    "carry4_by_source_category": {
+      "spi_target": 1,
+      "top_protocol_control": 7
+    },
+    "ff_direct_driver_type": {
+      "FDCE": 10,
+      "FDPE": 2,
+      "LUT2": 43,
+      "LUT3": 21,
+      "LUT4": 10,
+      "LUT5": 5,
+      "LUT6": 7,
+      "other_or_direct": 3
+    },
+    "ff_direct_unique_combinational_drivers": 90,
+    "top_ff_direct_unique_lut_mux_drivers": 62,
+    "multiplier_ff_direct_driver_type": {},
+    "multiplier_ff_direct_unique_drivers": 0,
+    "multiplier_ff_shallow_cone_depth2_unique_primitives": 0,
+    "top_add_sub_input_neighbor_unique_lut_mux": 0,
+    "max_nonreset_nonraw_rx_fanout": 52,
+    "high_fanout_nonclock_nets": [
+      {
+        "net": "rst_n_INV_I_O",
+        "primitive_input_uses": 101
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data",
+        "primitive_input_uses": 72
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_FDPE_Q_D_LUT2_O_I1_LUT4_I0_O_FDCE_D_Q_FDCE_Q_CE_LUT5_O_I1_LUT2_I0_O",
+        "primitive_input_uses": 52
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O",
+        "primitive_input_uses": 46
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT4_I0_O_LUT5_I3_O_LUT3_I0_I1_LUT3_I0_O_FDCE_D_Q",
+        "primitive_input_uses": 39
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT4_I0_O_LUT3_I1_O_LUT6_O_I4_LUT5_I4_O",
+        "primitive_input_uses": 37
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_FDPE_Q_D_LUT2_O_I1_LUT3_O_I2_LUT5_I4_O",
+        "primitive_input_uses": 25
+      },
+      {
+        "net": "spi_ss_n_LUT4_I0_O_FDCE_Q_D_LUT5_O_I1_LUT4_O_I1_LUT3_I0_O_FDCE_D_Q[1]",
+        "primitive_input_uses": 18
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_FDPE_Q_D_LUT2_O_I1_LUT4_I0_O_FDCE_D_Q_FDCE_Q_CE_LUT5_O_I1_LUT5_I1_O_LUT5_I3_O_FDPE_D_Q",
+        "primitive_input_uses": 17
+      },
+      {
+        "net": "spi_ss_n_LUT6_I0_I5[1]",
+        "primitive_input_uses": 17
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_FDPE_Q_D_LUT2_O_I1_LUT4_I0_O_FDCE_D_Q_FDCE_Q_CE_LUT5_O_I1_LUT6_I0_O_FDCE_D_Q",
+        "primitive_input_uses": 17
+      },
+      {
+        "net": "\\u_spi_target.o_rx_data_valid_LUT2_I0_O_FDPE_Q_D_LUT2_O_I1_LUT4_I0_O_FDCE_D_Q_FDCE_Q_CE_LUT5_O_I1_CARRY4_O_S_2_LUT3_O_I1_CARRY4_S_O",
+        "primitive_input_uses": 17
+      }
+    ],
+    "launch_states": 0,
+    "lhs_sources": [],
+    "rhs_sources": [],
+    "unique_lhs_sources": 0,
+    "unique_rhs_sources": 0
+  }
+]

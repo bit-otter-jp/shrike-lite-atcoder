@@ -1,0 +1,61 @@
+{
+  "captured_at": "2026-08-17T17:28:00+09:00",
+  "tree_digest_algorithm": "For each recursive file sorted by absolute path: relative_path_with_forward_slashes|sha256_lowercase, joined with LF and a final LF, then SHA-256 over UTF-8",
+  "trees": [
+    {
+      "path": "ffpga",
+      "files": 3,
+      "digest": "20f5faf757e313e55b81bab5e50303f732b99397c706c8539fad11139ee19bcc"
+    },
+    {
+      "path": "sim",
+      "files": 1,
+      "digest": "6fbe992e414ad73e00b3e69688c30218ecbf6a11f84d85b728e039c828a1243f"
+    },
+    {
+      "path": "tools",
+      "files": 3,
+      "digest": "e7633d3cc0c7cfee051ad4b67f99231c7a2cd9a2c5ddc468f8d479815e6cb0ed"
+    },
+    {
+      "path": "experiments",
+      "files": 93,
+      "digest": "e8fe4d82f480b252883e96ef18fc7f76d1a906d447b9a8cf24aef2197a7aca0a"
+    },
+    {
+      "path": "diagnostics",
+      "files": 50,
+      "digest": "cff95ca49574188baaceec416a9d1609f047af49f49b0525d89fc5420e684d67"
+    },
+    {
+      "path": "compact_v3",
+      "files": 198,
+      "digest": "480fec5afacd3ee2a0b480de7376569fb7db5d9c11b0e6a5476e250cd6382919"
+    },
+    {
+      "path": "../abc471e_s1s2",
+      "logical_name": "S1S2_30BIT_BASELINE",
+      "files": 128,
+      "digest": "e78d3404423522dadaf3c86a4e44b9fd7b13e99e1b076c2d1ac15364ab9ab3fc"
+    }
+  ],
+  "documents": {
+    "SPEC_abc471e_narrow.md": "d3acc9ce369c2ae66cc5654710b479b321c30da1dd00591daa662a45ebf1469a",
+    "SPEC_abc471e_narrow_2.md": "7118a63b5a1e39c39439deacf1ea221ed002d7f0c58f128685dad887e53384fa",
+    "SPEC_abc471e_narrow_3.md": "162e4ac63fd3e81bb5c0cdd777c3bc74abde5d80ab1d7200a3e8e2f6e3dfa4e2",
+    "IMPL_abc471e_narrow.md": "226e8f1a22a1cef0c1db432f86261e56cf1bb1cf0d6f0220ae6501a5837d55ee",
+    "IMPL_abc471e_narrow_2.md": "6de576707de26a667be698dff34d956ec24ee34bbd6c4232855cecd756a3daf6",
+    "IMPL_abc471e_narrow_3.md": "a89649f753d0bbe8bfeb098d2371525bba99a648f28a25de7d26fe0b440f1fd0",
+    "IMPL_abc471e_narrow_4.md": "73d7a70053084769d4e12f602630a540255e102d9478e589f74836bf172cbecb",
+    "WORK_REQUEST_abc471e_narrow.md": "8af622f69871e7d8ded84cbae3e4975e89560bedb900b81b1e26119866dd46e3",
+    "WORK_REQUEST_abc471e_narrow_2.md": "fc7a0bd64054d0e75fae394fe8dafe903cd3ad36a116b5043dcaf881ec088b38",
+    "WORK_REQUEST_abc471e_narrow_3.md": "46a5f1e737ccc553fae8e18c438af9898ee5e3d2f618fb86cca1d6a897500aea",
+    "WORK_REQUEST_abc471e_narrow_4.md": "84d7434d837c47f731033fa06655e9ef0ef88b493762161f45b5c3eda117789a",
+    "WORK_REQUEST_abc471e_narrow_5.md": "9a73674181b85cf8100725837a1134907968641dc01640ba21536d985474eed3",
+    "REPORT_abc471e_narrow.md": "70cde65f171340d790c4e669426cb80032106d33be36bc9cf2e7facc46cb3641",
+    "REPORT_abc471e_narrow_2.md": "e2b60302058d399ba92b5866d6e2b25a4893d676802505d9b78770686077e13f",
+    "REPORT_abc471e_narrow_3.md": "fd5ef84d021ad82c67dfdd5c2b539fd935c373f7fad8b32ee99dd561713ab916",
+    "REPORT_abc471e_narrow_4.md": "c7d57c7356c2f8a54824fe03e53eca21914544932d2ba43f9aa805c475ccf288",
+    "REFERENCE_MAP.md": "b3f1a177ab67d6f55ece551a74598377d42f7f1aa95883ce5552f7022ceaec12"
+  }
+}

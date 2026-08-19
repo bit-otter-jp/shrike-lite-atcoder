@@ -1,0 +1,11 @@
+﻿{
+    "architecture":  "compact_v3",
+    "width":  9,
+    "mod":  509,
+    "n_max":  508,
+    "value_bytes":  2,
+    "main_sha256":  "e910abcf293fc37fbb071eef5cfad4eb91b0047263b512707278360032716fc6",
+    "iverilog":  "Icarus Verilog version 12.0 (devel) (s20150603-1539-g2693dd32b)",
+    "yosys":  "Yosys 0.59+0 (git sha1 946048486, x86_64-w64-mingw32-g++ 15.2.0 -O3)",
+    "yosys_options":  "flatten=true noDSP=true ABC9=true autoname=true"
+}

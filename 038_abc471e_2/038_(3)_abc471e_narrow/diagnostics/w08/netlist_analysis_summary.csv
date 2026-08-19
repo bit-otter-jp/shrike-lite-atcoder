@@ -1,0 +1,5 @@
+diagnostic,launch_states,unique_lhs_sources,unique_rhs_sources,multiplier_ff,multiplier_carry4,top_add_sub_carry4,spi_target_ff,top_protocol_control_ff,ff_direct_unique_combinational_drivers,top_ff_direct_unique_lut_mux_drivers,multiplier_ff_direct_unique_drivers,multiplier_ff_shallow_cone_depth2_unique_primitives,top_add_sub_input_neighbor_unique_lut_mux,max_nonreset_nonraw_rx_fanout
+W08_BASELINE,11,9,9,38,6,5,28,225,289,217,38,51,18,188
+coefficient_pow_fixed,4,4,4,38,6,5,28,128,204,121,38,51,16,112
+input_only,1,1,1,38,6,5,28,104,178,104,38,51,16,70
+protocol_only,0,0,0,0,0,0,28,62,90,62,0,0,0,52

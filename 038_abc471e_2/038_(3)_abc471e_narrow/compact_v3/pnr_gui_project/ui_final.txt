@@ -1,0 +1,136 @@
+﻿WINDOW=ForgeFPGA Workshop [abc471e_narrow_pnr.ffpga]
+TYPE=ControlType.MenuItem`tNAME=File`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Edit`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Tools`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Window`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Options`tENABLED=True
+TYPE=ControlType.Button`tNAME=Save All`tENABLED=True
+TYPE=ControlType.Button`tNAME=Modules Library`tENABLED=True
+TYPE=ControlType.Button`tNAME=New Custom Module`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Messages`tENABLED=True
+TYPE=ControlType.Button`tNAME=Netlist`tENABLED=True
+TYPE=ControlType.Button`tNAME=Post-Synth RTL`tENABLED=True
+TYPE=ControlType.Button`tNAME=I/O Planner`tENABLED=True
+TYPE=ControlType.Button`tNAME=Floorplan`tENABLED=True
+TYPE=ControlType.Button`tNAME=Synthesis Report`tENABLED=True
+TYPE=ControlType.Button`tNAME=Resources Report`tENABLED=True
+TYPE=ControlType.Button`tNAME=Timing Analysis`tENABLED=True
+TYPE=ControlType.Button`tNAME=Macrocell Editor`tENABLED=True
+TYPE=ControlType.Button`tNAME=PLL Configurator`tENABLED=True
+TYPE=ControlType.Button`tNAME=Simulation`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=General Log`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Synthesis Log`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Bitstream Log`tENABLED=True
+TYPE=ControlType.RadioButton`tNAME=Issues`tENABLED=True
+TYPE=ControlType.Tab`tNAME=main.v`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=main.v`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=I/O Planner`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=spi_target.v`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Timing Analysis`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=atcoder_spi_template_v3.sdc`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Floorplan`tENABLED=True
+TYPE=ControlType.Text`tNAME=Sources`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Project`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Source Code`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Custom Code`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=main.v`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=spi_target.v`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Modules Library`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Testbenches`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Timing Constraints`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=atcoder_spi_template_v3.sdc`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Placement Constraints`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=External Netlists`tENABLED=True
+TYPE=ControlType.Text`tNAME=Resources Report`tENABLED=True
+TYPE=ControlType.Text`tNAME=Compile project to get resources report`tENABLED=False
+TYPE=ControlType.Button`tNAME=Synthesize`tENABLED=True
+TYPE=ControlType.Button`tNAME=Generate Bitstream`tENABLED=True
+WINDOW=[SLG47910V (Rev BB)] - [abc471e_narrow_pnr.ffpga] - ForgeFPGA Workshop v.6.54
+TYPE=ControlType.Pane`tNAME=Properties`tENABLED=True
+TYPE=ControlType.Button`tNAME=Close`tENABLED=True
+TYPE=ControlType.Button`tNAME=Float`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=File`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Edit`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=View`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Tools`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Options`tENABLED=True
+TYPE=ControlType.MenuItem`tNAME=Help`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Alignment and Rotation`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rotate Left`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rotate Right`tENABLED=True
+TYPE=ControlType.Button`tNAME=Flip Horizontal`tENABLED=True
+TYPE=ControlType.Button`tNAME=Flip Vertical`tENABLED=True
+TYPE=ControlType.Button`tNAME=Align Horizontal`tENABLED=True
+TYPE=ControlType.Button`tNAME=Align Vertical`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Drawing`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Draw Frame`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Draw Custom Frame`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Tabs`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Properties`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=File`tENABLED=True
+TYPE=ControlType.Button`tNAME=New`tENABLED=True
+TYPE=ControlType.Button`tNAME=Open`tENABLED=True
+TYPE=ControlType.Button`tNAME=Save`tENABLED=True
+TYPE=ControlType.Button`tNAME=Print`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Wire`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Set Wire`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Erase Wire`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Label`tENABLED=True
+TYPE=ControlType.Button`tNAME=Set Label`tENABLED=True
+TYPE=ControlType.Button`tNAME=Erase Label`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Tools`tENABLED=True
+TYPE=ControlType.Button`tNAME=Rule Checker`tENABLED=True
+TYPE=ControlType.Button`tNAME=FPGA Editor`tENABLED=True
+TYPE=ControlType.CheckBox`tNAME=Debug`tENABLED=True
+TYPE=ControlType.Button`tNAME=Comparison`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Project settings`tENABLED=True
+TYPE=ControlType.Button`tNAME=Project Settings`tENABLED=True
+TYPE=ControlType.ToolBar`tNAME=Undo`tENABLED=True
+TYPE=ControlType.Button`tNAME=Undo`tENABLED=False
+TYPE=ControlType.Button`tNAME=Redo`tENABLED=False
+TYPE=ControlType.Pane`tNAME=Component List`tENABLED=True
+TYPE=ControlType.Text`tNAME=Components`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=I/O Pins`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO10 (PIN 1)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO11 (PIN 2)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO12 (PIN 3)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO13 (PIN 4)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO14 (PIN 5)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO15 (PIN 6)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO16 (PIN 7/GrP2)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO17 (PIN 8/GrP1)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO18 (PIN 9/GrP0)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=nSLEEP (PIN 10)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=nRST (PIN 11)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GND (PIN 12)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO0 (PIN 13)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO1 (PIN 14)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO2 (PIN 15)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO3 (PIN 16)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO4 (PIN 17)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO5 (PIN 18)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO6 (PIN 19)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO7 (PIN 20)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=VDDIO (PIN 21)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=VDDC (PIN 22)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO8 (PIN 23)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=GPIO9 (PIN 24)`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Special Components`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=FPGA`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=OSC`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=Phase-Locked Loop`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=BRAM`tENABLED=True
+TYPE=ControlType.TreeItem`tNAME=FPGA Core`tENABLED=True
+TYPE=ControlType.Button`tNAME=Show all`tENABLED=True
+TYPE=ControlType.Button`tNAME=Hide all`tENABLED=True
+TYPE=ControlType.Button`tNAME=Close`tENABLED=True
+TYPE=ControlType.Tab`tNAME=Properties`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Properties`tENABLED=True
+TYPE=ControlType.Tab`tNAME=Component List`tENABLED=True
+TYPE=ControlType.TabItem`tNAME=Component List`tENABLED=True
+TYPE=ControlType.Text`tNAME=-`tENABLED=False
+TYPE=ControlType.Text`tNAME=+`tENABLED=False
+TYPE=ControlType.CheckBox`tNAME=Fullscreen Mode`tENABLED=True
+TYPE=ControlType.Text`tNAME=New version 6.55.001 available. Do you want to update now?`tENABLED=True
+TYPE=ControlType.Button`tNAME=OK`tENABLED=True
+TYPE=ControlType.Button`tNAME=Cancel`tENABLED=True

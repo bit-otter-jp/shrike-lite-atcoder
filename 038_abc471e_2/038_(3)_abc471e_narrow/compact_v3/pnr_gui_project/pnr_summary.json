@@ -1,0 +1,122 @@
+{
+  "applicable_spec": "SPEC_abc471e_narrow_2.md",
+  "applicable_impl": "IMPL_abc471e_narrow_3.md",
+  "target": {
+    "architecture": "compact_v3",
+    "width": 8,
+    "mod": 251,
+    "n_max": 250,
+    "value_bytes": 1,
+    "device_geometry": "Shrike-Lite FPGA-1K Logic-Memory Tile",
+    "type_l_capacity": 140,
+    "clock_constraint_ns": 20.0,
+    "clock_target_mhz": 50.0
+  },
+  "prerequisites": {
+    "main_sha256": "e910abcf293fc37fbb071eef5cfad4eb91b0047263b512707278360032716fc6",
+    "netlist_sha256": "018053a9ed8af5af46f2ed44358153fe99b0a9a953228d42d5551b878bbcc545",
+    "icarus": {
+      "total": 39,
+      "pass": 39,
+      "fail": 0
+    },
+    "post_synthesis": {
+      "lut": 557,
+      "ff": 163,
+      "carry4": 31
+    }
+  },
+  "execution": {
+    "flow": "ForgeFPGA GUI normal Place-and-Route flow",
+    "started_at": "2026-08-17T17:07:39.0229883+09:00",
+    "elapsed_seconds": 16.2,
+    "pnr_process_started": true,
+    "pnr_process_finished": true,
+    "pnr_result": "failed",
+    "failure_stage": "minimum placement",
+    "tool_exit_code": 3,
+    "failure_message": "FATAL ERROR: The design cannot fit into the current geometry."
+  },
+  "packing": {
+    "input_instances": 790,
+    "io_packed_instances": 10,
+    "io_clbs": 6,
+    "carry_chain_packed_instances": 146,
+    "carry_chain_clbs": 37,
+    "timing_driven_final_clbs": 171,
+    "unpacked_instances": 0,
+    "packing_verified": true,
+    "logic_clbs": 165,
+    "clb_luts_utilized": 539,
+    "six_input_luts": 76,
+    "dual_five_input_luts": 98,
+    "logical_luts_total": 637,
+    "clb_ffs_utilized": 138,
+    "logical_ffs_total": 160,
+    "io_input_ffs": 2,
+    "io_output_ffs": 1,
+    "io_clbs_total": 6,
+    "clock_count": 1,
+    "clock_fanout_clbs": 54,
+    "dsp": 0,
+    "required_logic_memory_1k_tiles": 2
+  },
+  "utilization": {
+    "type_l": {
+      "capacity": 140,
+      "utilized": 165,
+      "over_capacity": 25,
+      "percent": 117.9,
+      "placer_num_instances": 151,
+      "chain_length_1": 140,
+      "chain_length_2": 8,
+      "chain_length_3": 3
+    },
+    "type_m": {
+      "capacity": 40,
+      "utilized": 0
+    },
+    "iob": {
+      "capacity": 184,
+      "utilized": 6,
+      "percent": 3.3
+    },
+    "lut_percent": 96.2,
+    "dual_lut_percent": 17.5,
+    "ff_percent": 24.6,
+    "dual_ff_percent": 3.9,
+    "placement_input_instances": 173,
+    "placement_instances_after_chain_combining": 157,
+    "nets": 630,
+    "nets_with_fanout_over_49": 2,
+    "average_fanout": 3.56
+  },
+  "timing": {
+    "pre_lut_packing_estimate_mhz": 5.358,
+    "post_lut_packing_estimate_mhz": 11.324,
+    "post_lut_packing_estimated_period_ns": 88.308,
+    "post_placement_available": false,
+    "post_route_available": false,
+    "timing_closed": false,
+    "note": "The MHz values are packing-stage estimates, not final post-route timing. The tool also reported an SDC parsing warning at each estimate."
+  },
+  "router": {
+    "invoked_after_placement_failure": true,
+    "version": 0,
+    "completed": false,
+    "final_route_available": false
+  },
+  "prohibited_actions": {
+    "rtl_modified": false,
+    "cleanup_added": false,
+    "width_changed": false,
+    "spec_or_impl_modified": false,
+    "bitstream_generated": false,
+    "flashed": false,
+    "hardware_tested": false
+  },
+  "full_log": {
+    "path": "compact_v3/pnr_gui_project/forge_bitstream_log.txt",
+    "sha256": "36dd17f6ca96c8f98d126398ad1571bcf3a7436d2a1e159f0295d889f0e05161"
+  }
+}

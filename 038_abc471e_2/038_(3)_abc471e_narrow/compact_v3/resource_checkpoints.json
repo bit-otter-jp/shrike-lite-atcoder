@@ -1,0 +1,167 @@
+[
+  {
+    "checkpoint": "initial_w8",
+    "main_sha256": "1201923aa46c793243323d9b6e16348f9734bd45a48c72208798db32992ebda0",
+    "lut_total": 680,
+    "ff_total": 224,
+    "CARRY4": 33,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 128
+  },
+  {
+    "checkpoint": "cleanup1_w8",
+    "main_sha256": "2f7f4d2d86d72ab5f223d7179763880d5c783c6b57ac1c235e7d4ac56511a6b3",
+    "lut_total": 696,
+    "ff_total": 200,
+    "CARRY4": 29,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 103
+  },
+  {
+    "checkpoint": "cleanup2_w8",
+    "main_sha256": "c23b5caa22106339a09327c2cd0b0c319b86538afec5cca4d70ce8943add080c",
+    "lut_total": 654,
+    "ff_total": 200,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 104
+  },
+  {
+    "checkpoint": "cleanup3_w8",
+    "main_sha256": "b0e574999e15bb8e8014bb6c6954bf8adc4d4b365fd8b95749a57b0f04bd192e",
+    "lut_total": 606,
+    "ff_total": 183,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 87
+  },
+  {
+    "checkpoint": "cleanup4_w8",
+    "main_sha256": "b18e78a34ac6266397f0d22b3352cf7c4a9b0fc9244ab5db762f74ccd2a4673f",
+    "lut_total": 571,
+    "ff_total": 167,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup5_w8",
+    "main_sha256": "d1522a00833302b0616fd44ca59cf0709ef5284e571c04238c0ce9b4de623214",
+    "lut_total": 597,
+    "ff_total": 168,
+    "CARRY4": 28,
+    "MUXF7": 8,
+    "MUXF8": 4,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup6_w8",
+    "main_sha256": "b322d5428e7a7ecde9b2d156e48c14f3419ebdaac3353f070255fec8a588b58e",
+    "lut_total": 594,
+    "ff_total": 164,
+    "CARRY4": 31,
+    "MUXF7": 1,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 76
+  },
+  {
+    "checkpoint": "cleanup7_w8",
+    "main_sha256": "e17cae8a20608021eeb50329e96e2ccbfd14f67ede50522a468c02b722fde347",
+    "lut_total": 600,
+    "ff_total": 169,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup8_w8",
+    "main_sha256": "cbc23f022f5a05d7ff0058632fcd1713460133a4281c905c2cd685404d213457",
+    "lut_total": 580,
+    "ff_total": 167,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup9_w8",
+    "main_sha256": "9ebb233e41ca8b15729746459146dc9a2944c2952b263c65eac06e157364d032",
+    "lut_total": 563,
+    "ff_total": 164,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 80
+  },
+  {
+    "checkpoint": "cleanup10_w8",
+    "main_sha256": "2de4c0c8b034dc21d06aa3e7004f5848eb6f387e8d1d6d22a069ee121b00fc23",
+    "lut_total": 569,
+    "ff_total": 163,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup11_w8",
+    "main_sha256": "69fcceeaa931116e64b979af787ac4f49498ec5beb17e7f010b33c4b4b4c4553",
+    "lut_total": 574,
+    "ff_total": 163,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 79
+  },
+  {
+    "checkpoint": "cleanup12_w8",
+    "main_sha256": "5c0cbfd3d131add63dec29bd55478108f8facf040a1e29bad73c93d61e98f248",
+    "lut_total": 561,
+    "ff_total": 164,
+    "CARRY4": 31,
+    "MUXF7": 2,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 80
+  },
+  {
+    "checkpoint": "cleanup13_w8",
+    "main_sha256": "178bf6589d354fffbbedcb601800643f79b8bf628dcad91c087fdc7482436d58",
+    "lut_total": 601,
+    "ff_total": 163,
+    "CARRY4": 31,
+    "MUXF7": 2,
+    "MUXF8": 1,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 80
+  },
+  {
+    "checkpoint": "cleanup14_w8",
+    "main_sha256": "e910abcf293fc37fbb071eef5cfad4eb91b0047263b512707278360032716fc6",
+    "lut_total": 557,
+    "ff_total": 163,
+    "CARRY4": 31,
+    "MUXF7": 0,
+    "MUXF8": 0,
+    "launch_sites": 1,
+    "top_ff_direct_unique_lut_mux_drivers": 80
+  }
+]

@@ -1,0 +1,3 @@
+design,launch_sites,unique_lhs_sources,unique_rhs_sources,multiplier_ff,multiplier_carry4,top_protocol_control_ff,top_ff_direct_unique_lut_mux_drivers,all_ff_direct_unique_combinational_drivers,multiplier_ff_direct_unique_drivers,multiplier_depth2_unique_primitives,max_nonreset_nonraw_rx_fanout
+W08_BASELINE,11,9,9,38,6,225,217,289,38,51,188
+compact_v3_w8,1,4,7,30,6,80,80,152,30,63,84

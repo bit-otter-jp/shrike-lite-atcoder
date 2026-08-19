@@ -1,0 +1,56 @@
+﻿[
+    {
+        "width":  8,
+        "mod":  251,
+        "n_max":  250,
+        "prime_verified":  true
+    },
+    {
+        "width":  9,
+        "mod":  509,
+        "n_max":  508,
+        "prime_verified":  true
+    },
+    {
+        "width":  10,
+        "mod":  1021,
+        "n_max":  1020,
+        "prime_verified":  true
+    },
+    {
+        "width":  11,
+        "mod":  2039,
+        "n_max":  2038,
+        "prime_verified":  true
+    },
+    {
+        "width":  12,
+        "mod":  4093,
+        "n_max":  4092,
+        "prime_verified":  true
+    },
+    {
+        "width":  13,
+        "mod":  8191,
+        "n_max":  8190,
+        "prime_verified":  true
+    },
+    {
+        "width":  14,
+        "mod":  16381,
+        "n_max":  16380,
+        "prime_verified":  true
+    },
+    {
+        "width":  15,
+        "mod":  32749,
+        "n_max":  32748,
+        "prime_verified":  true
+    },
+    {
+        "width":  16,
+        "mod":  65521,
+        "n_max":  65520,
+        "prime_verified":  true
+    }
+]
