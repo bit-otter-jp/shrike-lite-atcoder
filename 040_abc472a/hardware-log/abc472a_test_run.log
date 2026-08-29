@@ -1,0 +1,25 @@
+MPY: soft reboot
+[shrike_flash] FPGA reset done 
+[shrike_flash] FPGA reset done 
+[shrike_fpga] Starting FPGA flash...
+[shrike_fpga] flashing: abc472a.bin
+[shrike_flash] FPGA programming done.
+NAME=official_sample_1 LEN=7 DUMMY_OK=1 RX=A...... EXPECT=A...... PASS
+NAME=official_sample_2 LEN=6 DUMMY_OK=1 RX=.A.A.A EXPECT=.A.A.A PASS
+NAME=official_sample_3 LEN=7 DUMMY_OK=1 RX=....... EXPECT=....... PASS
+NAME=length_1_A LEN=1 DUMMY_OK=1 RX=A EXPECT=A PASS
+NAME=length_1_non_A LEN=1 DUMMY_OK=1 RX=. EXPECT=. PASS
+NAME=all_A LEN=100 DUMMY_OK=1 RX=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA EXPECT=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA PASS
+NAME=no_A LEN=100 DUMMY_OK=1 RX=.................................................................................................... EXPECT=.................................................................................................... PASS
+NAME=multiple_A LEN=7 DUMMY_OK=1 RX=A.A.A.A EXPECT=A.A.A.A PASS
+NAME=leading_A_only LEN=100 DUMMY_OK=1 RX=A................................................................................................... EXPECT=A................................................................................................... PASS
+NAME=trailing_A_only LEN=100 DUMMY_OK=1 RX=...................................................................................................A EXPECT=...................................................................................................A PASS
+NAME=all_A_to_Z LEN=26 DUMMY_OK=1 RX=A......................... EXPECT=A......................... PASS
+NAME=length_100_mixed LEN=100 DUMMY_OK=1 RX=A.........................A.........................A.........................A..................... EXPECT=A.........................A.........................A.........................A..................... PASS
+NAME=random_1 LEN=1 DUMMY_OK=1 RX=. EXPECT=. PASS
+NAME=random_7 LEN=7 DUMMY_OK=1 RX=....... EXPECT=....... PASS
+NAME=random_31 LEN=31 DUMMY_OK=1 RX=............................... EXPECT=............................... PASS
+NAME=random_64 LEN=64 DUMMY_OK=1 RX=...............................................................A EXPECT=...............................................................A PASS
+NAME=random_100 LEN=100 DUMMY_OK=1 RX=...................A.................AA....................A.................A...................... EXPECT=...................A.................AA....................A.................A...................... PASS
+SUMMARY PASS=17 FAIL=0 TOTAL=17 RESULT=PASS
+BENCHMARK LEN=100 RUNS=20 MIN_US=3827 AVG_US=3849 MAX_US=3922 RESULT=PASS

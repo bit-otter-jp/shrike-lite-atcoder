@@ -1,0 +1,15 @@
+WORK2_abc472a.md を最初から最後まで読んでください。
+
+その内容を今回の追加作業仕様として実行してください。
+
+REF/abc471a にある実際のForgeFPGA Workshopプロジェクトを読み取り専用で確認し、それをひな形としてABC472A用の .ffpga プロジェクトを作成してください。
+
+`abc472a.ffpga` はプロジェクトルート直下に置き、そこから `ffpga/src` と `ffpga/build` を相対参照する、REFと同じ構成にしてください。`.ffpga` を `ffpga` 配下へ置かないでください。
+
+既存のABC472A RTL・テストは完成済みなので、WORK2で明示されていない変更は行わないでください。
+
+WORK2の指示どおり Synth / PNR / bitstream生成まで進め、後からForgeFPGA Workshopを開いて Resource Report / Timing Summaryを再実行なしで確認できる状態を残してください。
+
+Shrike-Liteへの書き込み、実機テスト、AtCoder提出は行わないでください。
+
+完了後、作成ファイル、継承した設定、Synth/PNR結果、Resource、Timing、bitstream生成結果、未実施項目だけ簡潔に報告してください。

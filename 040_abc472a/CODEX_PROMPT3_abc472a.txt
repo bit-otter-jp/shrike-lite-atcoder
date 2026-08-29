@@ -1,0 +1,15 @@
+WORK3_abc472a.md を最初から最後まで読んでください。
+
+ABC472AのRTL、Synth/PNR、bitstream、実機正答テストはすでに完了しています。
+
+今回はWORK3の指示どおり、firmware/micropython/abc472a_test.py に AtCoder最大入力長100文字の処理時間測定を追加し、REPORT_abc472a.md を必要最小限更新してください。
+
+RTL、abc472a.ffpga、ffpga/build、REF、SPI仕様は変更しないでください。
+
+時間測定は time.ticks_us() / time.ticks_diff() を使い、fpga_convert() 呼び出しだけを対象にしてください。
+1回ウォームアップ後、最大長100文字を20回測定し、MIN/AVG/MAX us を表示してください。
+ベンチマーク中も毎回、dummyと変換結果の正しさを確認してください。
+
+実機での数値は推測しないでください。Codex側で実機実行できない場合は、コードとREPORTの測定欄まで準備し、人間が実機で実行できる状態にしてください。
+
+完了後、変更ファイル、測定方式、構文確認結果、人間が次に行う実機手順だけ簡潔に報告してください。
