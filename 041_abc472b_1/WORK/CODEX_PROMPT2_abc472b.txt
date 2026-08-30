@@ -1,0 +1,29 @@
+D:\my_ws\_scratch\abc472b\WORK2_abc472b.md を最初から最後まで読んでください。
+
+ABC472B Phase 1 は完了済みで、RTL / Icarus / MicroPythonテストコードは機能確認済みです。
+
+今回は WORK2 の指示どおり、
+
+1. REFを読み取り専用で確認
+2. ABC472Aの実プロジェクト構成を参考に abc472b.ffpga を作成
+3. 50MHz制約でSynth
+4. 128×17bit mem_ram が本当にDistRAM / Type=Mへ推論されたか確認
+5. 推論成功時のみPNR
+6. Resource / Timing確認
+7. bitstream生成
+8. 後からForgeFPGA Workshopで結果を再表示できる状態を保存
+9. REPORT_abc472b.mdへPhase 2結果を追記
+
+まで実施してください。
+
+重要:
+- 既存RTL・MicroPython・simは原則変更しない
+- REFは変更しない
+- DistRAMへ推論されなかった場合は、勝手にRTLを修正せずそこで停止して報告
+- PNRやTimingで問題が出た場合も、仕様変更せずまず停止して報告
+- Shrike-Liteへの書き込み、実機テスト、AtCoder提出、Git操作は行わない
+
+特に今回の最重要確認事項は、
+`reg [16:0] mem_ram [127:0]` が大量FFではなくDistRAM / Type=Mへ推論されることです。
+
+完了後、Synth、DistRAM推論、Resource、PNR、Timing、bitstream、GUI再確認状態、未実施項目を簡潔に報告してください。

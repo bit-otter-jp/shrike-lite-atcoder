@@ -1,0 +1,22 @@
+D:\my_ws\_scratch\abc472b\WORK_abc472b.md を最初から最後まで読んでください。
+
+その内容を今回の作業仕様として、D:\my_ws\_scratch\abc472b 配下だけで ABC472B の Shrike-Lite RTL実装、Icarusテスト、MicroPythonテストコード作成、REPORT作成まで実施してください。
+
+作業開始時に REF を最初に確認してください。
+実物のSPI V3テンプレートがREFにある場合は、それを読み取り専用で使用し、Web情報から再構築しないでください。
+
+今回の設計方針は、
+- L_i はFPGA内部で17bit×最大100個保持
+- total/prefix/diff/answerは24bit
+- 全入力受信後、最大N-1候補を1候補/clock程度で逐次評価
+- 99候補の完全並列化はしない
+- RP2040からは N + 各L_iを24bit big-endianで送る
+- V3の1バースト上限を超える場合は複数burstに分割しても、FPGA側の入力状態を維持
+- 回答は24bitを別のread burstで回収
+です。
+
+WORKとREFに矛盾がある場合は、勝手にRTL仕様を変えず、まず差分と判断を短く報告してください。
+
+ForgeFPGA Synth / PNR、bitstream生成、実機書き込み、実機テスト、AtCoder提出はまだ行わないでください。
+
+完了後、変更ファイル、SPIフレーミング、実際のV3バースト上限、内部保持方法、CALCクロック数、テスト結果、未実施項目を簡潔に報告し、Synth/PNRへ進む前に停止してください。

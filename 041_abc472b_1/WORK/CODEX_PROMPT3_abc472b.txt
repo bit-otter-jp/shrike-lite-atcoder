@@ -1,0 +1,38 @@
+D:\my_ws\_scratch\abc472b\WORK3_abc472b.md を最初から最後まで読んで、その指示どおり実行してください。
+
+今回のPhase 3はPhase 2の訂正ではありません。
+50 MHz PNRで Achievable Frequency 42.396 MHz / WNS -3.588 ns だった結果を受け、
+現在のRTLに適した動作周波数として40 MHzを採用する追加作業です。
+
+作業開始時に REF/abc468b_pll を必ず確認してください。
+
+このREFには、
+- 40 MHz PLL設定済みの .ffpga
+- 40 MHzに対応して25 nsへ更新済みの .sdc
+があります。
+
+PLL dividerやSDC記述をWebや推測から再構築せず、
+この実物REFの `.ffpga` と `.sdc` の両方を参考にしてください。
+
+今回の主作業:
+1. abc472b.ffpga のPLLを40 MHzへ変更
+2. ABC472Bの使用SDCを25 nsへ変更
+3. RTLは変更せず再Synth
+4. DistRAMが引き続き RAM64X1D ×34 相当へ推論されることを確認
+5. 再PNR
+6. 40 MHzで WNS>=0 / TNS=0 を確認
+7. 成功時のみbitstream生成
+8. GUIで後から結果確認できる状態を保存
+9. REPORT_abc472b.mdへPhase 3結果を追記
+
+変更禁止:
+- ffpga/src/main.v
+- ffpga/src/spi_target.v
+- firmware/micropython/abc472b_test.py
+- sim/
+- REF/
+
+40 MHzでもTiming未達、またはDistRAM推論が崩れた場合は、
+勝手にRTL変更・再配置試行・別周波数化をせず停止して報告してください。
+
+Shrike-Liteへの書き込み、実機試験、AtCoder提出、Git操作は行わないでください。

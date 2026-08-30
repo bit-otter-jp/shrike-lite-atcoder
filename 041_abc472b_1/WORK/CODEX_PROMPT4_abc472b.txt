@@ -1,0 +1,81 @@
+D:\my_ws\_scratch\abc472b\WORK4_abc472b.md を最初から最後まで読み、その指示どおり実行してください。
+
+開始前に必ず以下を確認してください。
+
+- REPORT_WORK3_abc472b.md
+- abc472b.ffpga
+- ffpga/timing-constraints/
+- REF/abc468b_pll/
+
+WORK3では40 MHzで、
+
+- WNS -0.324 ns
+- TNS -0.910 ns
+- Achievable Frequency 39.490 MHz
+
+となりTiming未達でした。
+
+WORK4ではRTLを変更せず、ForgeFPGA WorkshopのPLL Configuratorを利用して、
+Timingを満たす内部clockを自動探索します。
+
+最初の目標周波数は、
+
+39.490 MHz × 0.95 = 37.5155 MHz
+→ 0.5 MHz単位で切り下げ
+→ 37.5 MHz
+
+です。
+
+重要:
+
+最初に、CodexからForgeFPGA WorkshopのPLL Configuratorを自動操作し、
+目標周波数に対する推奨PLL設定を取得できるか確認してください。
+
+自動取得できない場合は、その時点で停止してください。
+
+その場合、
+- dividerを推測しない
+- 手計算・総当たりでPLL設定を作らない
+- マニュアルを読んで独自PLL設計へ切り替えない
+- 人間操作を前提に先へ進めない
+
+でください。
+
+ただし停止した場合も `REPORT_WORK4_abc472b.md` の作成と最終報告は必ず行ってください。
+
+PLL Configuratorを自動利用できる場合は、
+
+1. 37.5 MHzを最初のtargetとしてConfiguratorから推奨設定取得
+2. Configuratorのactual PLL frequencyをabc472b.ffpgaへ反映
+3. actual frequencyに対応するperiodへSDCを更新
+4. RTL無変更でSynth
+5. DistRAM推論維持を確認
+6. PNR / Timing
+7. Timing PASSなら終了
+8. Timing FAILなら、その試行のAchievable Frequency ×0.95を計算し、0.5 MHz単位で切り下げて次targetを決定
+9. 同じ手順をTiming PASSまで繰り返す
+
+としてください。
+
+目標値そのものをConfiguratorが生成できない場合は、
+目標以下で最も近いConfigurator推奨設定を採用して構いません。
+ただしactual frequencyを必ず記録し、SDCをそのactual frequencyへ一致させてください。
+
+Timing FAIL時にWorkshopの一連フローでbitstreamが生成されても未承認品として扱い、
+実機には使用しないでください。
+
+変更禁止:
+
+- ffpga/src/main.v
+- ffpga/src/spi_target.v
+- firmware/micropython/abc472b_test.py
+- sim/
+- REF/
+- REPORT_WORK_abc472b.md
+- REPORT_WORK2_abc472b.md
+- REPORT_WORK3_abc472b.md
+
+今回の結果は独立した `REPORT_WORK4_abc472b.md` に記録してください。
+他のWORKのREPORTへ追記しないでください。
+
+Shrike-Liteへの書き込み、実機試験、AtCoder提出、Git操作は行わないでください。
