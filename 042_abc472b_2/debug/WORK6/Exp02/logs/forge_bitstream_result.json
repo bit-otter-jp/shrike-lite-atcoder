@@ -1,0 +1,11 @@
+﻿{
+    "process_id":  "<local-process-id>",
+    "started_at":  "2026-08-29T18:48:08.4404524+09:00",
+    "pnr_started":  true,
+    "pnr_completed":  false,
+    "elapsed_seconds":  723.9,
+    "bitstream_files":  [
+
+                        ],
+    "error":  "PNR automation timed out before completion"
+}

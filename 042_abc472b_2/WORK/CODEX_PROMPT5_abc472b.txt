@@ -1,0 +1,62 @@
+<workspace>\WORK5_abc472b.md を最初から最後まで読み、その指示どおりデバッグしてください。
+
+37.5 MHz Timing PASS済みbitstreamの実機テストで、
+
+SUMMARY PASS=16 FAIL=3 TOTAL=19 RESULT=FAIL
+
+となりました。
+
+最優先の再現ケースは、
+
+best_at_first_cut = [100, 1, 1]
+expected = 98
+
+です。
+
+このcaseはN=3、入力10byte、1 burstなので、
+256byte境界とは無関係です。
+
+またproduction RTLではDistRAM値を17bitで保持していますが、
+CALCでは24bitへゼロ拡張して加減算・絶対差計算しているため、
+17bit modulo overflowを第一原因とは考えません。
+
+今回はproduction RTLを修正しないでください。
+
+まず次の順で切り分けてください。
+
+1. 同一caseの繰り返し実行で再現性確認
+2. resetなし連続実行 / 各回resetの比較
+3. SPI速度を入力burstと回答burstで分離
+   - input 4MHz / answer 4MHz
+   - input 2MHz / answer 4MHz
+   - input 4MHz / answer 2MHz
+   - input 2MHz / answer 2MHz
+4. 回答4byteのraw MISOを整数変換前に記録
+5. FAIL代表3件とPASS代表ケースへ展開
+6. production RTLを静的再確認
+
+Codex環境から実機を直接実行できない場合は、
+firmware/micropython/abc472b_debug_work5.py
+などのdebug専用スクリプトを作り、人間がThonnyから実行できる状態で停止してください。
+
+2MHzでもFAILし、内部値観測が必要になった場合は、
+勝手にproduction RTLへdebug回路を追加しないでください。
+そこで停止し、次WORKでdebug RTLを設計できるよう観測候補を整理してください。
+
+今回の結果は必ず独立した、
+
+REPORT_WORK5_abc472b.md
+
+へ記録してください。
+
+停止条件に該当してもREPORT作成と最終報告は必ず行ってください。
+
+変更禁止:
+- ffpga/src/main.v
+- ffpga/src/spi_target.v
+- abc472b.ffpga
+- timing constraint
+- REF/
+- REPORT_WORK1～4相当の既存REPORT
+
+AtCoder提出、Git操作、pipeline化も行わないでください。

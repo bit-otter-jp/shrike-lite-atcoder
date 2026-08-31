@@ -1,0 +1,83 @@
+<workspace>\WORK7_abc472b.md を全文読み、その指示どおり実行してください。
+
+WORK7は実装変更ではなく、最終productionの実機証跡と処理時間測定です。
+
+最終production MCU bitstream SHA-256は、
+
+4BCBCBC4DBF0B3C678BE398A31710464C509A81A581DBE98D08282A5758F49A4
+
+です。
+
+開始時にbuild / workspace / E:\abc472b.binのhash一致を確認してください。
+
+今回の主目的は2つです。
+
+1. 最終productionの112件実機試験を再実行し、
+   Thonny Shellの標準出力をそのまま
+
+   hardware_logs/hardware_log_abc472b_final.log
+
+   へ保存する。
+
+2. N=100最大ケースについて、Shrike-Liteとしての1回処理時間を20回測定する。
+
+測定対象には、
+
+- RP2040側入力チェック
+- N / L_i serialize
+- SPI入力転送（最大301byte = 256 + 45）
+- CALC_WAIT_US=10 us
+- 4byte answer read
+- 24bit answer組立
+
+を含めてください。
+
+測定外は、
+
+- shrike.flash()
+- FPGA reset
+- SPI初期化
+- test case生成
+- print
+
+です。
+
+productionのabc472b_test.pyは変更しないでください。
+必要なら、
+
+firmware/micropython/abc472b_benchmark.py
+
+を新規作成してください。
+
+benchmarkは20回すべてanswerが正しいことを確認し、
+
+BENCHMARK N=100 RUNS=20
+MIN_US=...
+AVG_US=...
+MAX_US=...
+RESULT=PASS
+
+の形式で出力してください。
+MEDIAN_USを追加しても構いません。
+
+benchmark標準出力は、
+
+hardware_logs/hardware_log_abc472b_benchmark.log
+
+へ保存してください。
+
+Thonnyのscript open / F5 / Shell回収はWORK5/WORK6で確立した自動化を再利用し、
+可能ならfinal testとbenchmarkの両方を人間操作なしで実行してください。
+
+production RTL、SPI V3、FFPGA、SDC、production MicroPython、bitstreamは変更しないでください。
+Synth / PNRは不要です。
+
+結果は必ず独立した、
+
+REPORT_WORK7_abc472b.md
+
+へ記録してください。
+
+停止条件に達してもREPORTは必ず作成してください。
+
+AtCoder提出、Git操作、他プロジェクト変更は行わないでください。

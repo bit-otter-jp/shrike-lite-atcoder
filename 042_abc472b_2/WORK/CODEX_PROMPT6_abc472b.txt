@@ -1,0 +1,104 @@
+<workspace>\WORK6_abc472b.md を全文読み、その内容を基準に原因調査を進めてください。
+
+WORK5では37.5 MHz production bitstreamを実機試験し、
+
+PASS=20 FAIL=92 TOTAL=112
+
+でした。
+
+最優先caseは、
+
+best_at_first_cut = [100, 1, 1]
+expected = 98
+
+です。
+
+このcaseはN=3、10byte、1 burstですが、
+reset有無に関係なくFAILし、
+input / answer SPIを2 MHzまで下げてもFAILしました。
+
+代表PASS caseは同じ速度条件でPASSし、
+raw MISO dummyは全112件で0x00です。
+
+したがって単純なSPI速度marginやburst境界だけでは説明できません。
+
+WORK6では、
+入力組立 → DistRAM write/read → CALC → answer
+のどこで壊れているかを実機で特定してください。
+
+今回はあなたの自由度を上げます。
+
+<workspace>
+および
+E:\
+
+の範囲では、原因調査に必要なdebug RTL、telemetry、MicroPython、
+testbench、ForgeFPGA project、bitstream、ログ等を自由に作成・変更して構いません。
+
+必要なら、
+- DistRAM readback
+- shadow FF
+- FF-only debug版
+- CALC bypass
+- 内部state dump
+- debug SPI protocol
+- clock変更
+- PLL変更
+- SDC変更
+- post-synth比較
+などを自分で選んで試してください。
+
+手順を固定しません。
+観測結果を見て次の実験を自分で判断してください。
+
+ただしWORK4/WORK5時点のproduction baselineは失わないよう、
+開始時にhash確認・必要ならbackupしてください。
+
+原因が特定できた場合は、
+最小修正をproductionへ反映し、
+
+Icarus
+→ Synth / PNR / Timing
+→ bitstream
+→ Eドライブへ配置
+→ Shrike-Liteへflash
+→ Thonny実機試験
+
+まで進めて構いません。
+
+ForgeFPGA Workshopは既存の自動化を使ってください。
+
+ThonnyもWORK5で自動操作できたため、
+可能なら今回もscript open / F5 / Shell回収まで自動化してください。
+
+さらに今回は、
+ForgeFPGAで生成したdebug bitstreamをEドライブへコピーし、
+MicroPythonのshrike.flash()でShrike-Liteへ書き込み、
+実機試験まで人間操作なしで回せるかも試してください。
+
+Eドライブ操作時は、
+対象がShrike-Lite用USBストレージであることを確認してください。
+formatやpartition変更、無関係ファイルの大量削除は行わないでください。
+
+COM6はThonny backendが保持している可能性があります。
+必要ならThonny backend停止・再開やThonny再起動を調査して構いません。
+COM6を複数プロセスで同時使用しないでください。
+
+原因未確定のまま大量の変更を重ねるのではなく、
+可能な限り1実験1仮説で進めてください。
+
+結果は必ず独立した、
+
+REPORT_WORK6_abc472b.md
+
+へ記録してください。
+
+停止条件に達してもREPORTは必ず作成してください。
+
+AtCoder提出、Git push/tag/release、他プロジェクト変更、
+OSの恒久設定変更は行わないでください。
+
+最終報告では、
+原因、決定的観測、修正内容、Icarus、Synth/PNR/Timing、実機結果、
+Eドライブコピー自動化、Shrike-Lite flash自動化、Thonny自動化の成否を
+簡潔にまとめてください。
